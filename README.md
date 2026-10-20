@@ -2,7 +2,7 @@
 
 This repository contains the records, decisions, extracted data and analysis code for
 
-> Rekhert, M. (2026). *Problem gambling among people who bet on sports: A systematic review and meta-analysis of prevalence across case definitions and sample types* [Manuscript submitted for publication]. Preprint: forthcoming
+> Rekhert, M. (2026). *Problem gambling among people who bet on sports: A systematic review and meta-analysis of prevalence across case definitions and sample types* [Manuscript submitted for publication]. Preprint: https://doi.org/10.5281/zenodo.23493615
 
 - Protocol (OSF Registries, registered 18 October 2026 before screening): https://doi.org/10.17605/OSF.IO/6GQ48
 - Archived release (Zenodo): https://doi.org/10.5281/zenodo.23493579
