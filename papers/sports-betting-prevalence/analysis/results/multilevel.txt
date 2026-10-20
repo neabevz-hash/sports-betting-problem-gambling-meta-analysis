@@ -1,0 +1,159 @@
+
+===== prespecified =====
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+cbind(cases_n, n_n - cases_n) ~ level + stype + prob + (1 | study_id) +  
+    (1 | sample_id) + (1 | est_id)
+   Data: data
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1139.4    1169.1    -558.7    1117.4        99 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-0.90605 -0.15785 -0.01781  0.15785  2.57971 
+
+Random effects:
+ Groups    Name        Variance Std.Dev.
+ est_id    (Intercept) 0.08856  0.2976  
+ sample_id (Intercept) 0.56288  0.7503  
+ study_id  (Intercept) 0.25042  0.5004  
+Number of obs: 110, groups:  est_id, 110; sample_id, 46; study_id, 44
+
+Fixed effects:
+                                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                           -0.82915    0.86268  -0.961  0.33649    
+levelL2                               -1.13973    0.08601 -13.250  < 2e-16 ***
+levelL3                               -2.34998    0.08610 -27.295  < 2e-16 ***
+levelL4                               -2.48020    0.50437  -4.917 8.77e-07 ***
+stypebettors in other gambler surveys  1.30159    0.91694   1.419  0.15576    
+stypebettors recruited as such         2.17685    0.88183   2.469  0.01357 *  
+stypestudents, pupils and other        1.79687    0.59551   3.017  0.00255 ** 
+probTRUE                               0.96447    0.76040   1.268  0.20467    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) levlL2 levlL3 levlL4 stiogs styras st,pao
+levelL2     -0.040                                          
+levelL3     -0.027  0.556                                   
+levelL4     -0.041  0.094  0.170                            
+stypbttiogs -0.938 -0.022 -0.033  0.029                     
+stypbttrras -0.973 -0.014 -0.030  0.031  0.917              
+stypstd,pao -0.723 -0.005 -0.028 -0.015  0.681  0.708       
+probTRUE    -0.906 -0.014 -0.035  0.043  0.854  0.885  0.531
+
+===== rma_mv =====
+
+Multivariate Meta-Analysis Model (k = 110; method: REML)
+
+Variance Components:
+
+            estim    sqrt  nlvls  fixed                     factor 
+sigma^2.1  0.2594  0.5093     44     no                   study_id 
+sigma^2.2  0.6214  0.7883     46     no         study_id/sample_id 
+sigma^2.3  0.0805  0.2838    110     no  study_id/sample_id/est_id 
+
+Test for Residual Heterogeneity:
+QE(df = 102) = 11556.8864, p-val < .0001
+
+Test of Moderators (coefficients 2:8):
+QM(df = 7) = 779.1138, p-val < .0001
+
+Model Results:
+
+                                       estimate      se      zval    pval 
+intrcpt                                 -0.8083  0.8511   -0.9498  0.3422 
+levelL2                                 -1.1135  0.0831  -13.3972  <.0001 
+levelL3                                 -2.3031  0.0835  -27.5883  <.0001 
+levelL4                                 -2.4390  0.4888   -4.9897  <.0001 
+stypebettors in other gambler surveys    1.2551  0.9097    1.3797  0.1677 
+stypebettors recruited as such           2.1066  0.8742    2.4097  0.0160 
+stypestudents, pupils and other          1.7605  0.6153    2.8613  0.0042 
+probTRUE                                 0.9309  0.7467    1.2466  0.2125 
+                                         ci.lb    ci.ub      
+intrcpt                                -2.4764   0.8597      
+levelL2                                -1.2764  -0.9506  *** 
+levelL3                                -2.4667  -2.1395  *** 
+levelL4                                -3.3971  -1.4810  *** 
+stypebettors in other gambler surveys  -0.5278   3.0380      
+stypebettors recruited as such          0.3931   3.8200    * 
+stypestudents, pupils and other         0.5546   2.9665   ** 
+probTRUE                               -0.5327   2.3945      
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+===== robust =====
+Alternative hypothesis: two-sided 
+                                 Coef. Estimate     SE Null value  t-stat
+                               intrcpt   -0.808 1.1037          0  -0.732
+                               levelL2   -1.113 0.0709          0 -15.696
+                               levelL3   -2.303 0.1061          0 -21.716
+                               levelL4   -2.439 0.1273          0 -19.161
+ stypebettors in other gambler surveys    1.255 1.1403          0   1.101
+        stypebettors recruited as such    2.107 1.1201          0   1.881
+       stypestudents, pupils and other    1.761 0.8512          0   2.068
+                              probTRUE    0.931 0.8487          0   1.097
+ d.f. (Satt) p-val (Satt) Sig.
+        6.71       0.4887     
+       25.48       <0.001  ***
+       26.54       <0.001  ***
+        9.77       <0.001  ***
+        8.60       0.3009     
+        7.46       0.0995    .
+        6.43       0.0810    .
+        4.49       0.3280     
+
+===== exploratory =====
+# A tibble: 19 × 6
+   moderator   k_samples    chisq    df         p note                          
+   <chr>           <int>    <dbl> <dbl>     <dbl> <chr>                         
+ 1 online_only        17  0.820       1  0.365    likelihood-ratio test, adjust…
+ 2 inplay_z            3 NA          NA NA        k < 10 or no variation: not t…
+ 3 dfs                46 NA          NA NA        k < 10 or no variation: not t…
+ 4 esports             7 NA          NA NA        k < 10 or no variation: not t…
+ 5 regular            46  1.72        1  0.190    likelihood-ratio test, adjust…
+ 6 period             32  2.62        2  0.269    likelihood-ratio test, adjust…
+ 7 regiongrp          43 19.1         3  0.000264 likelihood-ratio test, adjust…
+ 8 legal              25  0.782       1  0.377    likelihood-ratio test, adjust…
+ 9 year_z             37  2.60        1  0.107    likelihood-ratio test, adjust…
+10 age_z              31  4.71        1  0.0300   likelihood-ratio test, adjust…
+11 male_z             46  0.0102      1  0.920    likelihood-ratio test, adjust…
+12 survey_mode        45  5.15        4  0.272    likelihood-ratio test, adjust…
+13 disclosed          15  0.311       1  0.577    likelihood-ratio test, adjust…
+14 jbi_2              46  3.70        2  0.157    likelihood-ratio test, adjust…
+15 jbi_6              46  1.47        2  0.479    likelihood-ratio test, adjust…
+16 jbi_9              46  1.58        2  0.454    likelihood-ratio test, adjust…
+17 journal            46  2.26        1  0.133    likelihood-ratio test, adjust…
+18 funded             31  0.00164     1  0.968    likelihood-ratio test, adjust…
+19 instrument         42  3.08        1  0.0794   likelihood-ratio test, L3 est…
+
+===== exploratory_coefs =====
+# A tibble: 25 × 9
+   moderator   term             reference    OR ci.lb  ci.ub       p n_estimates
+   <chr>       <chr>            <chr>     <dbl> <dbl>  <dbl>   <dbl>       <int>
+ 1 online_only online_onlyonli… both      1.56  0.602  4.03  3.61e-1          36
+ 2 regular     regularminimum … any bett… 1.52  0.817  2.82  1.87e-1         110
+ 3 period      periodpast 12 m… lifetime  0.380 0.117  1.23  1.06e-1          74
+ 4 period      periodpast 30 d… lifetime  0.539 0.103  2.83  4.65e-1          74
+ 5 regiongrp   regiongrpOceania Europe    2.17  1.17   4.04  1.41e-2         103
+ 6 regiongrp   regiongrpother   Europe    1.88  0.524  6.74  3.33e-1         103
+ 7 regiongrp   regiongrpsub-Sa… Europe    5.97  2.90  12.3   1.20e-6         103
+ 8 legal       legalregulated … mixed     0.532 0.133  2.13  3.73e-1          59
+ 9 year_z      year_z           per SD    1.31  0.948  1.82  1.01e-1          89
+10 age_z       age_z            per SD    0.715 0.533  0.959 2.50e-2          76
+# ℹ 15 more rows
+# ℹ 1 more variable: n_samples_term <int>
+
+===== variance_explained =====
+# A tibble: 3 × 4
+  model                                   total_variance null_variance pseudo_R2
+  <chr>                                            <dbl>         <dbl>     <dbl>
+1 level                                            1.21           1.91     0.366
+2 level + sample type                              0.926          1.91     0.514
+3 level + sample type + probability samp…          0.902          1.91     0.527

@@ -1,0 +1,602 @@
+[
+ {
+  "job_id": "R2661",
+  "study_id": "ST022",
+  "main": "R2661",
+  "attached": [
+   "R5777"
+  ],
+  "listed_only": [],
+  "link_reason": "Victorian gambling prevalence studies 2008, 2014 and 2018 (R2661); R5777 analyses the 2008 study (A Study of Gambling in Victoria, August-October 2008, N = 15,000)",
+  "samples": "Three independent cross-sectional surveys (2008, 2014, 2018): extract the sports bettors of each survey as a separate sample. R5777 (attached) reports the 2008 survey by sex: use it for the 2008 sample's subgroups and to fill values R2661 does not give.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4056",
+  "study_id": "ST035",
+  "main": "R4056",
+  "attached": [
+   "R3634",
+   "R3635"
+  ],
+  "listed_only": [],
+  "link_reason": "Betting and Gaming COVID-19 Impact Study, YouGov cohort of regular sports bettors in Britain: wave 1 (6-19 July 2020, n = 3,866) is reported in R4056; R3634 uses two waves (T0, T2) and R3635 uses wave 2 (November 2020) of the same cohort. Waves of one panel: the first wave enters (codebook)",
+  "samples": "One sample: the regular sports bettors of wave 1 (July 2020). Extract wave-1 estimates from R4056; use R3634 and R3635 only to fill values R4056 does not give, and note their later-wave estimates in the sample notes.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R0081",
+  "study_id": "ST001",
+  "main": "R0081",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R0129",
+  "study_id": "ST002",
+  "main": "R0129",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R0534",
+  "study_id": "ST003",
+  "main": "R0534",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R0712",
+  "study_id": "ST004",
+  "main": "R0712",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R0714",
+  "study_id": "ST005",
+  "main": "R0714",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R0907",
+  "study_id": "ST006",
+  "main": "R0907",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R1094",
+  "study_id": "ST007",
+  "main": "R1094",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R1200",
+  "study_id": "ST008",
+  "main": "R1200",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R1215",
+  "study_id": "ST009",
+  "main": "R1215",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R1744",
+  "study_id": "ST010",
+  "main": "R1744",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R1768",
+  "study_id": "ST011",
+  "main": "R1768",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R1879",
+  "study_id": "ST012",
+  "main": "R1879",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2108",
+  "study_id": "ST013",
+  "main": "R2108",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2161",
+  "study_id": "ST014",
+  "main": "R2161",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2226",
+  "study_id": "ST015",
+  "main": "R2226",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2227",
+  "study_id": "ST016",
+  "main": "R2227",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2271",
+  "study_id": "ST017",
+  "main": "R2271",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2361",
+  "study_id": "ST018",
+  "main": "R2361",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2366",
+  "study_id": "ST019",
+  "main": "R2366",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2429",
+  "study_id": "ST020",
+  "main": "R2429",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": [
+   "possible overlap with R2934 (ST024): Both young Australian sports bettors recruited by Qualtrics panels for Hing et al. (April 2021, N = 616; June-September 2021, NSW, N = 267): separate surveys, panel members may overlap"
+  ]
+ },
+ {
+  "job_id": "R2516",
+  "study_id": "ST021",
+  "main": "R2516",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2909",
+  "study_id": "ST023",
+  "main": "R2909",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R2934",
+  "study_id": "ST024",
+  "main": "R2934",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": [
+   "possible overlap with R2429 (ST020): Both young Australian sports bettors recruited by Qualtrics panels for Hing et al. (April 2021, N = 616; June-September 2021, NSW, N = 267): separate surveys, panel members may overlap"
+  ]
+ },
+ {
+  "job_id": "R3059",
+  "study_id": "ST025",
+  "main": "R3059",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3113",
+  "study_id": "ST026",
+  "main": "R3113",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3255",
+  "study_id": "ST027",
+  "main": "R3255",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3259",
+  "study_id": "ST028",
+  "main": "R3259",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3283",
+  "study_id": "ST029",
+  "main": "R3283",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3603",
+  "study_id": "ST030",
+  "main": "R3603",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3643",
+  "study_id": "ST031",
+  "main": "R3643",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3816",
+  "study_id": "ST032",
+  "main": "R3816",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3836",
+  "study_id": "ST033",
+  "main": "R3836",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R3889",
+  "study_id": "ST034",
+  "main": "R3889",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4080",
+  "study_id": "ST036",
+  "main": "R4080",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4132",
+  "study_id": "ST037",
+  "main": "R4132",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4314",
+  "study_id": "ST038",
+  "main": "R4314",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": [
+   "possible overlap with R4315 (ST039): Both Ipsos web panel samples of Swedish online gamblers (Hakansson); R4314 (May 2020, N = 997) says it repeats the recruitment of an earlier study, probably R4315 (N = 1,004): different years, panel members may overlap"
+  ]
+ },
+ {
+  "job_id": "R4315",
+  "study_id": "ST039",
+  "main": "R4315",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": [
+   "possible overlap with R4314 (ST038): Both Ipsos web panel samples of Swedish online gamblers (Hakansson); R4314 (May 2020, N = 997) says it repeats the recruitment of an earlier study, probably R4315 (N = 1,004): different years, panel members may overlap"
+  ]
+ },
+ {
+  "job_id": "R4368",
+  "study_id": "ST040",
+  "main": "R4368",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4427",
+  "study_id": "ST041",
+  "main": "R4427",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4528",
+  "study_id": "ST042",
+  "main": "R4528",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "One sample: everyone in the emerging adults survey who bet on sports or esports. Esports bettors and other sports or event bettors are subgroups; if the paper says the groups do not overlap, also give the whole-sample estimate as their sum (derived = yes).",
+  "job_notes": "R3635 (attached to the job of R4056) also analyses wave one of this emerging adults survey (n = 3,549).",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R4617",
+  "study_id": "ST043",
+  "main": "R4617",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": [
+   "possible overlap with R5231 (ST049): Both EMA studies of regular Australian sports and race bettors by the same group (98 and 279 sports bettors): separate studies, recruitment may overlap"
+  ]
+ },
+ {
+  "job_id": "R4863",
+  "study_id": "ST044",
+  "main": "R4863",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R5077",
+  "study_id": "ST045",
+  "main": "R5077",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R5106",
+  "study_id": "ST046",
+  "main": "R5106",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R5144",
+  "study_id": "ST047",
+  "main": "R5144",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R5162",
+  "study_id": "ST048",
+  "main": "R5162",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R5231",
+  "study_id": "ST049",
+  "main": "R5231",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": [
+   "possible overlap with R4617 (ST043): Both EMA studies of regular Australian sports and race bettors by the same group (98 and 279 sports bettors): separate studies, recruitment may overlap"
+  ]
+ },
+ {
+  "job_id": "R5423",
+  "study_id": "ST050",
+  "main": "R5423",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R5435",
+  "study_id": "ST051",
+  "main": "R5435",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R6342",
+  "study_id": "ST052",
+  "main": "R6342",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ },
+ {
+  "job_id": "R6580",
+  "study_id": "ST053",
+  "main": "R6580",
+  "attached": [],
+  "listed_only": [],
+  "link_reason": "",
+  "samples": "Extract every eligible sample in the main report.",
+  "job_notes": "",
+  "possible_overlap": []
+ }
+]

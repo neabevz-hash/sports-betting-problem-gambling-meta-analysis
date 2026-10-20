@@ -1,0 +1,8 @@
+{
+  "file": "2026-10-18_sonnet.jsonl",
+  "sha256": "064887ac8e96152df79d575bda605eb11f19d51f2c53c4c34208b632ebef978c",
+  "records": 7728,
+  "written_at_utc": "2026-10-19T06:52:57+00:00",
+  "model": "claude-sonnet-5-5",
+  "system_prompt_sha": "0e9f1010b03c7efc"
+}

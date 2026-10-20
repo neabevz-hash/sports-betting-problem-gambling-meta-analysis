@@ -1,0 +1,20 @@
+moderator,k_samples,chisq,df,p,note
+online_only,17,0.8198453062237832,1,0.36522539853318237,"likelihood-ratio test, adjusted for level"
+inplay_z,3,NA,NA,NA,k < 10 or no variation: not tested
+dfs,46,NA,NA,NA,k < 10 or no variation: not tested
+esports,7,NA,NA,NA,k < 10 or no variation: not tested
+regular,46,1.7155477085873372,1,0.19026716285920145,"likelihood-ratio test, adjusted for level"
+period,32,2.623233896407214,2,0.2693841238643509,"likelihood-ratio test, adjusted for level"
+regiongrp,43,19.071194066438693,3,2.6428654156508566e-4,"likelihood-ratio test, adjusted for level"
+legal,25,0.7817975736063545,1,0.37659194111115235,"likelihood-ratio test, adjusted for level"
+year_z,37,2.5955924931438403,1,0.10716135850997163,"likelihood-ratio test, adjusted for level"
+age_z,31,4.710792393753195,1,0.029973832709124074,"likelihood-ratio test, adjusted for level"
+male_z,46,0.010196417345923692,1,0.9195684712644562,"likelihood-ratio test, adjusted for level"
+survey_mode,45,5.150113710532423,4,0.2722387676032779,"likelihood-ratio test, adjusted for level"
+disclosed,15,0.3108114905159596,1,0.5771826487768326,"likelihood-ratio test, adjusted for level"
+jbi_2,46,3.7037757362243156,2,0.15694060330530174,"likelihood-ratio test, adjusted for level"
+jbi_6,46,1.4706630555183438,2,0.47934651595303734,"likelihood-ratio test, adjusted for level"
+jbi_9,46,1.5800161845095317,2,0.45384112266950805,"likelihood-ratio test, adjusted for level"
+journal,46,2.2559367344615566,1,0.1331028918960894,"likelihood-ratio test, adjusted for level"
+funded,31,0.0016438553269608747,1,0.9676590416578821,"likelihood-ratio test, adjusted for level"
+instrument,42,3.0766814909098343,1,0.07942242412227372,"likelihood-ratio test, L3 estimates only"

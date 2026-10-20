@@ -1,0 +1,3 @@
+test,estimate,p
+"logit prevalence on 1/sqrt(n) (REML, Hartung-Knapp)",5.523384988750945,0.1630596667933578
+journal vs other (GLMM),-0.580591552604039,0.2476441965994646

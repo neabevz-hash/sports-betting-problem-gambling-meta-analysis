@@ -1,0 +1,500 @@
+{
+  "_phrase_sets": {
+    "phrases": [
+      "sports betting",
+      "sports bettors",
+      "sports bettor",
+      "sports wagering",
+      "sports gambling",
+      "sports gamblers",
+      "sports bets",
+      "sport betting",
+      "sport bettors",
+      "sport bettor",
+      "sport wagering",
+      "sport gambling",
+      "sport gamblers",
+      "sport bets",
+      "esports betting",
+      "esports bettors",
+      "esports bettor",
+      "esports wagering",
+      "esports gambling",
+      "esports gamblers",
+      "esports bets",
+      "e-sports betting",
+      "e-sports bettors",
+      "e-sports bettor",
+      "e-sports wagering",
+      "e-sports gambling",
+      "e-sports gamblers",
+      "e-sports bets",
+      "football betting",
+      "football bettors",
+      "football bettor",
+      "football wagering",
+      "football gambling",
+      "football gamblers",
+      "football bets",
+      "soccer betting",
+      "soccer bettors",
+      "soccer bettor",
+      "soccer wagering",
+      "soccer gambling",
+      "soccer gamblers",
+      "soccer bets",
+      "fantasy sports betting",
+      "fantasy sports bettors",
+      "fantasy sports bettor",
+      "fantasy sports wagering",
+      "fantasy sports gambling",
+      "fantasy sports gamblers",
+      "fantasy sports bets",
+      "daily fantasy sports betting",
+      "daily fantasy sports bettors",
+      "daily fantasy sports bettor",
+      "daily fantasy sports wagering",
+      "daily fantasy sports gambling",
+      "daily fantasy sports gamblers",
+      "daily fantasy sports bets",
+      "betting on sports",
+      "betting on sport",
+      "gambling on sports",
+      "wagering on sports",
+      "bet on sports",
+      "fantasy sports",
+      "fantasy sport",
+      "daily fantasy",
+      "sports lottery",
+      "sport lottery",
+      "sports lotteries",
+      "in-play betting",
+      "live betting",
+      "in-play sports betting",
+      "sportsbook",
+      "sportsbooks",
+      "match betting",
+      "online betting",
+      "sports pools",
+      "sports tipping"
+    ],
+    "pubmed_pairs": [
+      [
+        "sport",
+        "sports",
+        "esports",
+        "football",
+        "soccer",
+        "fantasy sports"
+      ],
+      [
+        "betting",
+        "bettors",
+        "bettor",
+        "wagering",
+        "gambling",
+        "gamblers",
+        "bet",
+        "bets",
+        "wager",
+        "lottery"
+      ]
+    ],
+    "pubmed_single": [
+      "\"in-play betting\"[tiab]",
+      "\"live betting\"[tiab]",
+      "\"online betting\"[tiab:~2]",
+      "sportsbook*[tiab]",
+      "\"daily fantasy\"[tiab]",
+      "\"match betting\"[tiab]"
+    ],
+    "non_en": [
+      "apostas esportivas",
+      "apostas desportivas",
+      "apostadores esportivos",
+      "bets esportivas",
+      "apuestas deportivas",
+      "apostadores deportivos",
+      "paris sportifs",
+      "parieurs sportifs",
+      "Sportwetten",
+      "scommesse sportive",
+      "spor bahisleri",
+      "spor bahis",
+      "zakłady sportowe",
+      "ставки на спорт",
+      "спортивные ставки",
+      "букмекерские ставки",
+      "体育彩票",
+      "体育博彩",
+      "足球彩票",
+      "竞猜型体育彩票",
+      "스포츠 도박",
+      "스포츠토토",
+      "スポーツベッティング",
+      "sportsspill",
+      "sportsvæddemål",
+      "vadslagning"
+    ],
+    "core_phrases": [
+      "sports betting",
+      "sport betting",
+      "sports bettors",
+      "sports wagering",
+      "sports gambling",
+      "sports gamblers",
+      "fantasy sports",
+      "daily fantasy sports",
+      "esports betting",
+      "esports gambling",
+      "sports lottery",
+      "football betting",
+      "soccer betting",
+      "in-play betting",
+      "online betting",
+      "betting on sports",
+      "apostas esportivas",
+      "apuestas deportivas"
+    ],
+    "crossref_queries": [
+      "sports betting",
+      "sports bettors",
+      "sports wagering",
+      "sports gambling",
+      "sport betting",
+      "fantasy sports gambling",
+      "daily fantasy sports",
+      "esports betting",
+      "sports lottery gambling",
+      "football betting",
+      "soccer betting",
+      "in-play betting",
+      "online sports betting",
+      "sports betting problem gambling",
+      "apostas esportivas"
+    ]
+  },
+  "pubmed": {
+    "records": 575,
+    "meta": {
+      "queries": [
+        {
+          "query": "\"sport betting\"[tiab:~2] OR \"sport bettors\"[tiab:~2] OR \"sport bettor\"[tiab:~2] OR \"sport wagering\"[tiab:~2] OR \"sport gambling\"[tiab:~2] OR \"sport gamblers\"[tiab:~2] OR \"sport bet\"[tiab:~2] OR \"sport bets\"[tiab:~2] OR \"sport wager\"[tiab:~2] OR \"sport lottery\"[tiab:~2] OR \"sports betting\"[tiab:~2] OR \"sports bettors\"[tiab:~2] OR \"sports bettor\"[tiab:~2] OR \"sports wagering\"[tiab:~2] OR \"sports gambling\"[tiab:~2] OR \"sports gamblers\"[tiab:~2] OR \"sports bet\"[tiab:~2] OR \"sports bets\"[tiab:~2] OR \"sports wager\"[tiab:~2] OR \"sports lottery\"[tiab:~2] OR \"esports betting\"[tiab:~2] OR \"esports bettors\"[tiab:~2] OR \"esports bettor\"[tiab:~2] OR \"esports wagering\"[tiab:~2] OR \"esports gambling\"[tiab:~2] OR \"esports gamblers\"[tiab:~2] OR \"esports bet\"[tiab:~2] OR \"esports bets\"[tiab:~2] OR \"esports wager\"[tiab:~2] OR \"esports lottery\"[tiab:~2] OR \"football betting\"[tiab:~2] OR \"football bettors\"[tiab:~2] OR \"football bettor\"[tiab:~2]",
+          "count": 524,
+          "warnings": null
+        },
+        {
+          "query": "\"football wagering\"[tiab:~2] OR \"football gambling\"[tiab:~2] OR \"football gamblers\"[tiab:~2] OR \"football bet\"[tiab:~2] OR \"football bets\"[tiab:~2] OR \"football wager\"[tiab:~2] OR \"football lottery\"[tiab:~2] OR \"soccer betting\"[tiab:~2] OR \"soccer bettors\"[tiab:~2] OR \"soccer bettor\"[tiab:~2] OR \"soccer wagering\"[tiab:~2] OR \"soccer gambling\"[tiab:~2] OR \"soccer gamblers\"[tiab:~2] OR \"soccer bet\"[tiab:~2] OR \"soccer bets\"[tiab:~2] OR \"soccer wager\"[tiab:~2] OR \"soccer lottery\"[tiab:~2] OR \"fantasy sports betting\"[tiab:~2] OR \"fantasy sports bettors\"[tiab:~2] OR \"fantasy sports bettor\"[tiab:~2] OR \"fantasy sports wagering\"[tiab:~2] OR \"fantasy sports gambling\"[tiab:~2] OR \"fantasy sports gamblers\"[tiab:~2] OR \"fantasy sports bet\"[tiab:~2] OR \"fantasy sports bets\"[tiab:~2] OR \"fantasy sports wager\"[tiab:~2] OR \"fantasy sports lottery\"[tiab:~2] OR \"in-play betting\"[tiab] OR \"live betting\"[tiab] OR \"online betting\"[tiab:~2] OR sportsbook*[tiab] OR \"daily fantasy\"[tiab] OR \"match betting\"[tiab]",
+          "count": 173,
+          "warnings": {
+            "phrasesignored": [],
+            "quotedphrasesnotfound": [
+              "\"live betting\"[tiab]",
+              "\"match betting\"[tiab]"
+            ],
+            "outputmessages": []
+          }
+        }
+      ],
+      "unique_pmids": 575
+    },
+    "searched_at_utc": "2026-10-18T11:25:59+00:00",
+    "seconds": 7.2
+  },
+  "europepmc": {
+    "records": 589,
+    "meta": {
+      "queries": [
+        {
+          "query": "TITLE_ABS:\"sports betting\" OR TITLE_ABS:\"sports bettors\" OR TITLE_ABS:\"sports bettor\" OR TITLE_ABS:\"sports wagering\" OR TITLE_ABS:\"sports gambling\" OR TITLE_ABS:\"sports gamblers\" OR TITLE_ABS:\"sports bets\" OR TITLE_ABS:\"sport betting\" OR TITLE_ABS:\"sport bettors\" OR TITLE_ABS:\"sport bettor\" OR TITLE_ABS:\"sport wagering\" OR TITLE_ABS:\"sport gambling\" OR TITLE_ABS:\"sport gamblers\" OR TITLE_ABS:\"sport bets\" OR TITLE_ABS:\"esports betting\" OR TITLE_ABS:\"esports bettors\" OR TITLE_ABS:\"esports bettor\" OR TITLE_ABS:\"esports wagering\" OR TITLE_ABS:\"esports gambling\" OR TITLE_ABS:\"esports gamblers\" OR TITLE_ABS:\"esports bets\" OR TITLE_ABS:\"e-sports betting\" OR TITLE_ABS:\"e-sports bettors\" OR TITLE_ABS:\"e-sports bettor\" OR TITLE_ABS:\"e-sports wagering\" OR TITLE_ABS:\"e-sports gambling\" OR TITLE_ABS:\"e-sports gamblers\" OR TITLE_ABS:\"e-sports bets\" OR TITLE_ABS:\"football betting\" OR TITLE_ABS:\"football bettors\" OR TITLE_ABS:\"football bettor\" OR TITLE_ABS:\"football wagering\" OR TITLE_ABS:\"football gambling\" OR TITLE_ABS:\"football gamblers\" OR TITLE_ABS:\"football bets\" OR TITLE_ABS:\"soccer betting\" OR TITLE_ABS:\"soccer bettors\" OR TITLE_ABS:\"soccer bettor\" OR TITLE_ABS:\"soccer wagering\" OR TITLE_ABS:\"soccer gambling\"",
+          "count": 498
+        },
+        {
+          "query": "TITLE_ABS:\"soccer gamblers\" OR TITLE_ABS:\"soccer bets\" OR TITLE_ABS:\"fantasy sports betting\" OR TITLE_ABS:\"fantasy sports bettors\" OR TITLE_ABS:\"fantasy sports bettor\" OR TITLE_ABS:\"fantasy sports wagering\" OR TITLE_ABS:\"fantasy sports gambling\" OR TITLE_ABS:\"fantasy sports gamblers\" OR TITLE_ABS:\"fantasy sports bets\" OR TITLE_ABS:\"daily fantasy sports betting\" OR TITLE_ABS:\"daily fantasy sports bettors\" OR TITLE_ABS:\"daily fantasy sports bettor\" OR TITLE_ABS:\"daily fantasy sports wagering\" OR TITLE_ABS:\"daily fantasy sports gambling\" OR TITLE_ABS:\"daily fantasy sports gamblers\" OR TITLE_ABS:\"daily fantasy sports bets\" OR TITLE_ABS:\"betting on sports\" OR TITLE_ABS:\"betting on sport\" OR TITLE_ABS:\"gambling on sports\" OR TITLE_ABS:\"wagering on sports\" OR TITLE_ABS:\"bet on sports\" OR TITLE_ABS:\"fantasy sports\" OR TITLE_ABS:\"fantasy sport\" OR TITLE_ABS:\"daily fantasy\" OR TITLE_ABS:\"sports lottery\" OR TITLE_ABS:\"sport lottery\" OR TITLE_ABS:\"sports lotteries\" OR TITLE_ABS:\"in-play betting\" OR TITLE_ABS:\"live betting\" OR TITLE_ABS:\"in-play sports betting\" OR TITLE_ABS:\"sportsbook\" OR TITLE_ABS:\"sportsbooks\" OR TITLE_ABS:\"match betting\" OR TITLE_ABS:\"online betting\" OR TITLE_ABS:\"sports pools\" OR TITLE_ABS:\"sports tipping\"",
+          "count": 209
+        }
+      ]
+    },
+    "searched_at_utc": "2026-10-18T11:26:05+00:00",
+    "seconds": 5.9
+  },
+  "openalex": {
+    "records": 6100,
+    "meta": {
+      "filters": [
+        {
+          "filter": "title_and_abstract.search:\"sports betting\"|\"sports bettors\"|\"sports bettor\"|\"sports wagering\"|\"sports gambling\"|\"sports gamblers\"|\"sports bets\"|\"sport betting\"|\"sport bettors\"|\"sport bettor\"|\"sport wagering\"|\"sport gambling\"|\"sport gamblers\"|\"sport bets\"|\"esports betting\"|\"esports bettors\"|\"esports bettor\"|\"esports wagering\"|\"esports gambling\"|\"esports gamblers\"|\"esports bets\"|\"e-sports betting\"|\"e-sports bettors\"|\"e-sports bettor\"|\"e-sports wagering\"|\"e-sports gambling\"|\"e-sports gamblers\"|\"e-sports bets\"|\"football betting\"|\"football bettors\"|\"football bettor\"|\"football wagering\"|\"football gambling\"|\"football gamblers\"|\"football bets\"|\"soccer betting\"|\"soccer bettors\"|\"soccer bettor\"|\"soccer wagering\"|\"soccer gambling\"",
+          "count": 4073
+        },
+        {
+          "filter": "title_and_abstract.search:\"soccer gamblers\"|\"soccer bets\"|\"fantasy sports betting\"|\"fantasy sports bettors\"|\"fantasy sports bettor\"|\"fantasy sports wagering\"|\"fantasy sports gambling\"|\"fantasy sports gamblers\"|\"fantasy sports bets\"|\"daily fantasy sports betting\"|\"daily fantasy sports bettors\"|\"daily fantasy sports bettor\"|\"daily fantasy sports wagering\"|\"daily fantasy sports gambling\"|\"daily fantasy sports gamblers\"|\"daily fantasy sports bets\"|\"betting on sports\"|\"betting on sport\"|\"gambling on sports\"|\"wagering on sports\"|\"bet on sports\"|\"fantasy sports\"|\"fantasy sport\"|\"daily fantasy\"|\"sports lottery\"|\"sport lottery\"|\"sports lotteries\"|\"in-play betting\"|\"live betting\"|\"in-play sports betting\"|\"sportsbook\"|\"sportsbooks\"|\"match betting\"|\"online betting\"|\"sports pools\"|\"sports tipping\"",
+          "count": 2848
+        }
+      ]
+    },
+    "searched_at_utc": "2026-10-18T11:27:13+00:00",
+    "seconds": 68.2
+  },
+  "openalex_non_en": {
+    "records": 977,
+    "meta": {
+      "filters": [
+        {
+          "filter": "title_and_abstract.search:\"apostas esportivas\"",
+          "count": 231
+        },
+        {
+          "filter": "title_and_abstract.search:\"apostas desportivas\"",
+          "count": 9
+        },
+        {
+          "filter": "title_and_abstract.search:\"apostadores esportivos\"",
+          "count": 4
+        },
+        {
+          "filter": "title_and_abstract.search:\"bets esportivas\"",
+          "count": 2
+        },
+        {
+          "filter": "title_and_abstract.search:\"apuestas deportivas\"",
+          "count": 207
+        },
+        {
+          "filter": "title_and_abstract.search:\"apostadores deportivos\"",
+          "count": 0
+        },
+        {
+          "filter": "title_and_abstract.search:\"paris sportifs\"",
+          "count": 127
+        },
+        {
+          "filter": "title_and_abstract.search:\"parieurs sportifs\"",
+          "count": 14
+        },
+        {
+          "filter": "title_and_abstract.search:\"Sportwetten\"",
+          "count": 182
+        },
+        {
+          "filter": "title_and_abstract.search:\"scommesse sportive\"",
+          "count": 24
+        },
+        {
+          "filter": "title_and_abstract.search:\"spor bahisleri\"",
+          "count": 5
+        },
+        {
+          "filter": "title_and_abstract.search:\"spor bahis\"",
+          "count": 8
+        },
+        {
+          "filter": "title_and_abstract.search:\"zakłady sportowe\"",
+          "count": 1
+        },
+        {
+          "filter": "title_and_abstract.search:\"ставки на спорт\"",
+          "count": 7
+        },
+        {
+          "filter": "title_and_abstract.search:\"спортивные ставки\"",
+          "count": 0
+        },
+        {
+          "filter": "title_and_abstract.search:\"букмекерские ставки\"",
+          "count": 0
+        },
+        {
+          "filter": "title_and_abstract.search:\"体育彩票\"",
+          "count": 93
+        },
+        {
+          "filter": "title_and_abstract.search:\"体育博彩\"",
+          "count": 4
+        },
+        {
+          "filter": "title_and_abstract.search:\"足球彩票\"",
+          "count": 16
+        },
+        {
+          "filter": "title_and_abstract.search:\"竞猜型体育彩票\"",
+          "count": 1
+        },
+        {
+          "filter": "title_and_abstract.search:\"스포츠 도박\"",
+          "count": 7
+        },
+        {
+          "filter": "title_and_abstract.search:\"스포츠토토\"",
+          "count": 44
+        },
+        {
+          "filter": "title_and_abstract.search:\"スポーツベッティング\"",
+          "count": 1
+        },
+        {
+          "filter": "title_and_abstract.search:\"sportsspill\"",
+          "count": 0
+        },
+        {
+          "filter": "title_and_abstract.search:\"sportsvæddemål\"",
+          "count": 1
+        },
+        {
+          "filter": "title_and_abstract.search:\"vadslagning\"",
+          "count": 13
+        }
+      ]
+    },
+    "searched_at_utc": "2026-10-18T11:27:44+00:00",
+    "seconds": 30.9
+  },
+  "s2": {
+    "records": 4106,
+    "meta": {
+      "queries": [
+        {
+          "query": "\"sports betting\" | \"sports bettors\" | \"sports bettor\" | \"sports wagering\" | \"sports gambling\" | \"sports gamblers\" | \"sports bets\" | \"sport betting\" | \"sport bettors\" | \"sport bettor\" | \"sport wagering\" | \"sport gambling\" | \"sport gamblers\" | \"sport bets\" | \"esports betting\" | \"esports bettors\" | \"esports bettor\" | \"esports wagering\" | \"esports gambling\" | \"esports gamblers\" | \"esports bets\" | \"e-sports betting\" | \"e-sports bettors\" | \"e-sports bettor\" | \"e-sports wagering\" | \"e-sports gambling\" | \"e-sports gamblers\" | \"e-sports bets\" | \"football betting\" | \"football bettors\"",
+          "count": 2576
+        },
+        {
+          "query": "\"football bettor\" | \"football wagering\" | \"football gambling\" | \"football gamblers\" | \"football bets\" | \"soccer betting\" | \"soccer bettors\" | \"soccer bettor\" | \"soccer wagering\" | \"soccer gambling\" | \"soccer gamblers\" | \"soccer bets\" | \"fantasy sports betting\" | \"fantasy sports bettors\" | \"fantasy sports bettor\" | \"fantasy sports wagering\" | \"fantasy sports gambling\" | \"fantasy sports gamblers\" | \"fantasy sports bets\" | \"daily fantasy sports betting\" | \"daily fantasy sports bettors\" | \"daily fantasy sports bettor\" | \"daily fantasy sports wagering\" | \"daily fantasy sports gambling\" | \"daily fantasy sports gamblers\" | \"daily fantasy sports bets\" | \"betting on sports\" | \"betting on sport\" | \"gambling on sports\" | \"wagering on sports\"",
+          "count": 703
+        },
+        {
+          "query": "\"bet on sports\" | \"fantasy sports\" | \"fantasy sport\" | \"daily fantasy\" | \"sports lottery\" | \"sport lottery\" | \"sports lotteries\" | \"in-play betting\" | \"live betting\" | \"in-play sports betting\" | \"sportsbook\" | \"sportsbooks\" | \"match betting\" | \"online betting\" | \"sports pools\" | \"sports tipping\"",
+          "count": 1714
+        }
+      ]
+    },
+    "searched_at_utc": "2026-10-18T11:28:09+00:00",
+    "seconds": 24.5
+  },
+  "crossref": {
+    "records": 1811,
+    "meta": {
+      "queries": {
+        "sports betting": {
+          "scanned": 3000,
+          "kept_new": 978
+        },
+        "sports bettors": {
+          "scanned": 3000,
+          "kept_new": 91
+        },
+        "sports wagering": {
+          "scanned": 3000,
+          "kept_new": 58
+        },
+        "sports gambling": {
+          "scanned": 3000,
+          "kept_new": 223
+        },
+        "sport betting": {
+          "scanned": 3000,
+          "kept_new": 29
+        },
+        "fantasy sports gambling": {
+          "scanned": 3000,
+          "kept_new": 196
+        },
+        "daily fantasy sports": {
+          "scanned": 3000,
+          "kept_new": 27
+        },
+        "esports betting": {
+          "scanned": 3000,
+          "kept_new": 11
+        },
+        "sports lottery gambling": {
+          "scanned": 3000,
+          "kept_new": 46
+        },
+        "football betting": {
+          "scanned": 3000,
+          "kept_new": 25
+        },
+        "soccer betting": {
+          "scanned": 3000,
+          "kept_new": 14
+        },
+        "in-play betting": {
+          "scanned": 3000,
+          "kept_new": 6
+        },
+        "online sports betting": {
+          "scanned": 3000,
+          "kept_new": 22
+        },
+        "sports betting problem gambling": {
+          "scanned": 3000,
+          "kept_new": 18
+        },
+        "apostas esportivas": {
+          "scanned": 844,
+          "kept_new": 67
+        }
+      }
+    },
+    "searched_at_utc": "2026-10-18T11:29:24+00:00",
+    "seconds": 75.6
+  },
+  "datacite": {
+    "records": 2110,
+    "meta": {
+      "queries": [
+        {
+          "query": "titles.title:(\"sports betting\" OR \"sports bettors\" OR \"sports bettor\" OR \"sports wagering\" OR \"sports gambling\" OR \"sports gamblers\" OR \"sports bets\" OR \"sport betting\" OR \"sport bettors\" OR \"sport bettor\" OR \"sport wagering\" OR \"sport gambling\" OR \"sport gamblers\" OR \"sport bets\" OR \"esports betting\" OR \"esports bettors\" OR \"esports bettor\" OR \"esports wagering\" OR \"esports gambling\" OR \"esports gamblers\" OR \"esports bets\" OR \"e-sports betting\" OR \"e-sports bettors\" OR \"e-sports bettor\" OR \"e-sports wagering\" OR \"e-sports gambling\" OR \"e-sports gamblers\" OR \"e-sports bets\" OR \"football betting\" OR \"football bettors\" OR \"football bettor\" OR \"football wagering\" OR \"football gambling\" OR \"football gamblers\" OR \"football bets\" OR \"soccer betting\" OR \"soccer bettors\" OR \"soccer bettor\" OR \"soccer wagering\" OR \"soccer gambling\") OR descriptions.description:(\"sports betting\" OR \"sports bettors\" OR \"sports bettor\" OR \"sports wagering\" OR \"sports gambling\" OR \"sports gamblers\" OR \"sports bets\" OR \"sport betting\" OR \"sport bettors\" OR \"sport bettor\" OR \"sport wagering\" OR \"sport gambling\" OR \"sport gamblers\" OR \"sport bets\" OR \"esports betting\" OR \"esports bettors\" OR \"esports bettor\" OR \"esports wagering\" OR \"esports gambling\" OR \"esports gamblers\" OR \"esports bets\" OR \"e-sports betting\" OR \"e-sports bettors\" OR \"e-sports bettor\" OR \"e-sports wagering\" OR \"e-sports gambling\" OR \"e-sports gamblers\" OR \"e-sports bets\" OR \"football betting\" OR \"football bettors\" OR \"football bettor\" OR \"football wagering\" OR \"football gambling\" OR \"football gamblers\" OR \"football bets\" OR \"soccer betting\" OR \"soccer bettors\" OR \"soccer bettor\" OR \"soccer wagering\" OR \"soccer gambling\") OR subjects.subject:(\"sports betting\" OR \"sports bettors\" OR \"sports bettor\" OR \"sports wagering\" OR \"sports gambling\" OR \"sports gamblers\" OR \"sports bets\" OR \"sport betting\" OR \"sport bettors\" OR \"sport bettor\" OR \"sport wagering\" OR \"sport gambling\" OR \"sport gamblers\" OR \"sport bets\" OR \"esports betting\" OR \"esports bettors\" OR \"esports bettor\" OR \"esports wagering\" OR \"esports gambling\" OR \"esports gamblers\" OR \"esports bets\" OR \"e-sports betting\" OR \"e-sports bettors\" OR \"e-sports bettor\" OR \"e-sports wagering\" OR \"e-sports gambling\" OR \"e-sports gamblers\" OR \"e-sports bets\" OR \"football betting\" OR \"football bettors\" OR \"football bettor\" OR \"football wagering\" OR \"football gambling\" OR \"football gamblers\" OR \"football bets\" OR \"soccer betting\" OR \"soccer bettors\" OR \"soccer bettor\" OR \"soccer wagering\" OR \"soccer gambling\")",
+          "total": 1426
+        },
+        {
+          "query": "titles.title:(\"soccer gamblers\" OR \"soccer bets\" OR \"fantasy sports betting\" OR \"fantasy sports bettors\" OR \"fantasy sports bettor\" OR \"fantasy sports wagering\" OR \"fantasy sports gambling\" OR \"fantasy sports gamblers\" OR \"fantasy sports bets\" OR \"daily fantasy sports betting\" OR \"daily fantasy sports bettors\" OR \"daily fantasy sports bettor\" OR \"daily fantasy sports wagering\" OR \"daily fantasy sports gambling\" OR \"daily fantasy sports gamblers\" OR \"daily fantasy sports bets\" OR \"betting on sports\" OR \"betting on sport\" OR \"gambling on sports\" OR \"wagering on sports\" OR \"bet on sports\" OR \"fantasy sports\" OR \"fantasy sport\" OR \"daily fantasy\" OR \"sports lottery\" OR \"sport lottery\" OR \"sports lotteries\" OR \"in-play betting\" OR \"live betting\" OR \"in-play sports betting\" OR \"sportsbook\" OR \"sportsbooks\" OR \"match betting\" OR \"online betting\" OR \"sports pools\" OR \"sports tipping\") OR descriptions.description:(\"soccer gamblers\" OR \"soccer bets\" OR \"fantasy sports betting\" OR \"fantasy sports bettors\" OR \"fantasy sports bettor\" OR \"fantasy sports wagering\" OR \"fantasy sports gambling\" OR \"fantasy sports gamblers\" OR \"fantasy sports bets\" OR \"daily fantasy sports betting\" OR \"daily fantasy sports bettors\" OR \"daily fantasy sports bettor\" OR \"daily fantasy sports wagering\" OR \"daily fantasy sports gambling\" OR \"daily fantasy sports gamblers\" OR \"daily fantasy sports bets\" OR \"betting on sports\" OR \"betting on sport\" OR \"gambling on sports\" OR \"wagering on sports\" OR \"bet on sports\" OR \"fantasy sports\" OR \"fantasy sport\" OR \"daily fantasy\" OR \"sports lottery\" OR \"sport lottery\" OR \"sports lotteries\" OR \"in-play betting\" OR \"live betting\" OR \"in-play sports betting\" OR \"sportsbook\" OR \"sportsbooks\" OR \"match betting\" OR \"online betting\" OR \"sports pools\" OR \"sports tipping\") OR subjects.subject:(\"soccer gamblers\" OR \"soccer bets\" OR \"fantasy sports betting\" OR \"fantasy sports bettors\" OR \"fantasy sports bettor\" OR \"fantasy sports wagering\" OR \"fantasy sports gambling\" OR \"fantasy sports gamblers\" OR \"fantasy sports bets\" OR \"daily fantasy sports betting\" OR \"daily fantasy sports bettors\" OR \"daily fantasy sports bettor\" OR \"daily fantasy sports wagering\" OR \"daily fantasy sports gambling\" OR \"daily fantasy sports gamblers\" OR \"daily fantasy sports bets\" OR \"betting on sports\" OR \"betting on sport\" OR \"gambling on sports\" OR \"wagering on sports\" OR \"bet on sports\" OR \"fantasy sports\" OR \"fantasy sport\" OR \"daily fantasy\" OR \"sports lottery\" OR \"sport lottery\" OR \"sports lotteries\" OR \"in-play betting\" OR \"live betting\" OR \"in-play sports betting\" OR \"sportsbook\" OR \"sportsbooks\" OR \"match betting\" OR \"online betting\" OR \"sports pools\" OR \"sports tipping\")",
+          "total": 1078
+        }
+      ]
+    },
+    "searched_at_utc": "2026-10-18T11:30:08+00:00",
+    "seconds": 43.7
+  },
+  "openaire": {
+    "records": 3766,
+    "meta": {
+      "type": "publication",
+      "queries": {
+        "\"sports betting\" OR \"sport betting\" OR \"sports bettors\" OR \"sports wagering\" OR \"sports gambling\"": {
+          "numFound": 2524,
+          "retrieved": 2530
+        },
+        "\"sports gamblers\" OR \"fantasy sports\" OR \"daily fantasy sports\" OR \"esports betting\" OR \"esports gambling\"": {
+          "numFound": 527,
+          "retrieved": 529
+        },
+        "\"sports lottery\" OR \"football betting\" OR \"soccer betting\" OR \"in-play betting\" OR \"online betting\"": {
+          "numFound": 659,
+          "retrieved": 660
+        },
+        "\"betting on sports\" OR \"apostas esportivas\" OR \"apuestas deportivas\"": {
+          "numFound": 402,
+          "retrieved": 403
+        }
+      }
+    },
+    "searched_at_utc": "2026-10-18T11:32:05+00:00",
+    "seconds": 117.4
+  },
+  "citations": {
+    "records": 408,
+    "meta": {
+      "tran_2024": {
+        "doi": "10.1016/s2468-2667(24)00126-9",
+        "openalex": "W4400641274",
+        "referenced_works": 141,
+        "citing_records": 271
+      }
+    },
+    "searched_at_utc": "2026-10-18T11:32:12+00:00",
+    "seconds": 6.6
+  },
+  "core": {
+    "error": "stopped on 2026-10-18 after repeated HTTP 500/504 responses from api.core.ac.uk (as in the check run); CORE is searched later as a supplementary search (deviations.md, D2)"
+  }
+}

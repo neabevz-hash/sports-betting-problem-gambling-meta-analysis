@@ -1,0 +1,80 @@
+{
+  "run": "2026-10-18",
+  "records_screened": 7728,
+  "missing_decisions": [],
+  "to_full_text": 1824,
+  "excluded_title_abstract": 5904,
+  "final_labels": {
+    "unsure": 1404,
+    "exclude": 5904,
+    "include": 420
+  },
+  "by_stage": {
+    "calibration (agreed with AI rule)": {
+      "exclude": 320,
+      "include": 20,
+      "unsure": 31
+    },
+    "calibration (resolved, labels shown)": {
+      "exclude": 20,
+      "unsure": 9
+    },
+    "double AI exclusion (not re-screened)": {
+      "exclude": 4469
+    },
+    "re-screening (blind, audit)": {
+      "unsure": 57,
+      "exclude": 243
+    },
+    "re-screening (blind, targeted)": {
+      "unsure": 287,
+      "exclude": 776
+    },
+    "verification (AI labels shown)": {
+      "unsure": 1020,
+      "include": 400,
+      "exclude": 76
+    }
+  },
+  "verification": {
+    "records": 1496,
+    "passes_agree": 1216,
+    "accepted_ai_label_with_equals": 1216,
+    "r1_excluded_although_a_pass_kept": 76,
+    "r1_excluded_although_both_kept": 1,
+    "final_by_pass_pattern": {
+      "both_kept": {
+        "unsure": 879,
+        "include": 400,
+        "exclude": 1
+      },
+      "one_kept": {
+        "unsure": 141,
+        "exclude": 75
+      }
+    }
+  },
+  "calibration_resolutions": {
+    "records": 29,
+    "final_equals_r1_blind": 29,
+    "full_text_after_resolution": 9
+  },
+  "safeguard": {
+    "re_screened": 1363,
+    "moved_to_full_text": 344,
+    "moved_include": 0,
+    "moved_unsure": 344,
+    "by_stratum": {
+      "targeted": {
+        "records": 1063,
+        "moved_to_full_text": 287
+      },
+      "audit": {
+        "records": 300,
+        "moved_to_full_text": 57
+      }
+    },
+    "not_re_screened": 4469,
+    "audit_rest_size": 4303
+  }
+}

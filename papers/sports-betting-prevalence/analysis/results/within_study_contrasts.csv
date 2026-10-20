@@ -1,0 +1,5 @@
+contrast,study,level,threshold,cases_a,n_a,prev_a,cases_b,n_b,prev_b,OR,ci.lb,ci.ub
+esports vs traditional sports bettors,"Greer et al. 2021 (two quota samples, Australia)",L3,PGSI>=8,193,298,0.6476510067114094,52,300,0.17333333333333334,8.766300366300367,5.983469059487497,12.843389235939366
+esports vs traditional sports bettors,"Wardle et al. 2020 (emerging adults, Great Britain)",L3,PGSI>=8,55,104,0.5288461538461539,53,584,0.09075342465753425,11.245668078552173,6.9763527389318485,18.127674340092277
+weekly vs less frequent sports bettors,"Castrén et al. 2013 (population survey, Finland)",L3,PGSI>=8,9,54,0.16666666666666666,9,136,0.0661764705882353,2.8222222222222224,1.054420051587841,7.553856984804694
+online vs land-based sports bettors (groups overlap),"Tomei et al. 2025 (conscripts, Switzerland)",L2,PGSI>=3,83,240,0.3458333333333333,126,348,0.3620689655172414,0.9314528359114347,0.6601319261460112,1.3142893884752864

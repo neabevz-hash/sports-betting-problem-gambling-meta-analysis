@@ -1,0 +1,51 @@
+variable,value,n
+sample type,bettors in other gambler surveys,10
+sample type,bettors in representative surveys,11
+sample type,bettors recruited as such,25
+sample type,"students, pupils and other",9
+region,,3
+region,Europe,23
+region,Middle East and North Africa,1
+region,Oceania,17
+region,multi,2
+region,sub-Saharan Africa,9
+age group,adolescents,1
+age group,adults,43
+age group,mixed or NR,11
+sampling,census,2
+sampling,convenience,22
+sampling,operator_customers,5
+sampling,probability,15
+sampling,quota,8
+sampling,snowball,1
+sampling,venue_intercept,2
+betting mode,NR,31
+betting mode,both,15
+betting mode,online only,9
+publication status,journal,51
+publication status,preprint,4
+country,AUS,17
+country,BEN,1
+country,CHE,1
+country,CIV,1
+country,DEU,2
+country,ESP,3
+country,ETH,1
+country,FIN,1
+country,FRA,1
+country,GBR,5
+country,GHA,2
+country,HRV,1
+country,HUN,1
+country,ITA,1
+country,"MULTI: GBR, USA",1
+country,"MULTI: USA, GBR, CAN, IRL",1
+country,NGA,3
+country,NOR,1
+country,NR,2
+country,"NR (probably GBR: 88.4% born in UK, spend reported in £; recruitment country not stated)",1
+country,POL,2
+country,SRB,1
+country,SWE,3
+country,TUR,1
+country,UGA,1

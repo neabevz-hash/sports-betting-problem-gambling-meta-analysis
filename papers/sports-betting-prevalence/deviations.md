@@ -1,0 +1,84 @@
+# Deviations from protocol v1.0
+
+All changes after the protocol was frozen (git tag `sports-betting-prereg-v1.0`, 2026-10-18), dated and justified.
+
+## D1. Final search before the OSF registration (2026-10-18)
+
+- **Planned (§2, §10):** registration on OSF Registries, then the final search.
+- **Done:** the final search started on 2026-10-18 at 11:25 UTC with the frozen v1.0 code (tag `sports-betting-prereg-v1.0`, commit b58a670), before the OSF registration; R1 registers the protocol on OSF afterwards. Sources were run in the order of the check run, with CORE last because it stalled in the check run.
+- **What is not affected:** no human screening decision is made before the registration is submitted; the blind calibration by R1 starts only after it. The two AI passes may run before the registration: their label files are sealed by SHA-256 hashes committed to git and are not shown to R1 until R1's calibration decisions are committed, as the protocol requires anyway (§11b). The OSF field "Current review stage" states what had been done at the time of registration.
+- **Effect on the review:** none on the methods. The search collects records by fixed strings and code; nothing in the protocol depends on its results. PROSPERO's rule for comparison: registration is accepted until data extraction starts.
+- **Registration:** OSF, 2026-10-18 at 13:52 UTC, public, no embargo: https://osf.io/6gq48, DOI 10.17605/OSF.IO/6GQ48. Checked through the OSF API on 2026-10-18: the four archived files match the package built from tag `sports-betting-prereg-v1.0` by SHA-256; 59 of the 61 text fields match `registration/osf.md` verbatim, "Start date" reads 2026-10-18 without the note "(novelty check)", and in "Query strings" OSF removed the placeholder `<sport term> <betting term>` from the PubMed line (shown as `" "[tiab:~2]`); the exact strings are in the protocol (§10) and in `search_log.json`. The two file fields of the form were left empty; the files are in the registration's archive of OSF Storage. No calibration decision of R1 was committed before the registration.
+
+## D2. CORE not searched in the final search (2026-10-18)
+
+- **Planned (§9, §10):** CORE is one of the automated sources.
+- **Done:** on 2026-10-18 the CORE API (api.core.ac.uk) answered with repeated HTTP 500 and 504 errors and read timeouts, in the check run for more than an hour and again in the final search; CORE was stopped after the other eight sources and the citation search had finished (`search/runs/2026-10-18/search_log.json`).
+- **Then:** CORE is searched with the same code (`search.py core`) as a supplementary search as soon as the API responds normally, before full-text screening ends. Records new to the screening list get new record IDs, go through the same two AI passes and R1's decisions, and are reported separately in the PRISMA flow diagram.
+- **Effect on the review:** expected to be small. CORE is a pointer source (repository copies); in the AI-dependence review its records were mostly already in the set. Recall on the seed set without CORE was 25 of 25.
+- **Addendum (full-text retrieval, 2026-10-19):** CORE was also down for full texts: its API timed out after 30 s on every call. `fetch_oa.py` asked CORE for the first 217 reports (2 texts from CORE) and was restarted with `--no-core` for the rest. The reports without a text get a CORE retry (same script, without `--no-core`) when the API responds; texts found then go through the same AI proposal and R1's decision.
+
+## D3. Partial AI label files committed before the calibration (2026-10-18)
+
+- **Planned (§11b):** the SHA-256 hashes of both AI label files are committed when each pass ends; the label files themselves are committed after R1's calibration decisions.
+- **Done:** while both passes were running, two commits made from a parallel working session on other papers (c3a470d at 16:55 UTC and 5818deb at 17:15 UTC on 2026-10-18) included the then partial label files `screening/llm/2026-10-18_opus.jsonl` and `_sonnet.jsonl` by mistake.
+- **What is not affected:** the labels were not shown to R1; R1 does not read git diffs, and the calibration files contain no AI labels. The hashes of the complete files are committed when each pass ends, as planned. The early commits only add earlier time stamps for part of the AI labels.
+- **Effect on the review:** none on the methods; reported for transparency.
+
+## D4. Duplicate AI labels after a session restart (2026-10-18/19)
+
+- **What happened:** when the working session restarted on 2026-10-18, the runner processes of both AI passes that had been started before the restart kept running unseen, and the passes were resumed a second time. For several hours two processes per pass labelled records in parallel, so part of the records got two labels from the same model with the same prompt (opus: 7,019 unique records in 9,740 lines; sonnet: 7,250 in 10,399, at the time it was noticed on 2026-10-19). All four processes were stopped and one process per pass resumed from the records not yet labelled.
+- **Rule, fixed before the calibration was unblinded:** a record with two labels from one pass keeps the earliest one by `judged_at` (`screen_md.py`, `calibration_stats.py`, `tiab_final.py`). The label files are kept and hashed as written, with the duplicates. The agreement between the two labels of the duplicated records is reported as a repeatability check of each pass.
+- **Effect on the review:** none on the rule or on R1's decisions; the second labels are unused except for the repeatability check.
+
+## D5. First calibration file discarded, calibration redone on the same sample (2026-10-19)
+
+- **What happened:** in R1's first calibration file (`calibration_R1_01–03.md`, commit d8c21ab) all 400 decision lines were filled, but from record 14 on many decisions and notes described other records (shifts of 2 to 6 positions, partly back in place; for example, a note on a survey of 4,989 Indian school pupils stood both under its own record and under an advertisement for betting tips). Compared with the AI labels, it gave a sensitivity of 0.47 for the AI rule, which led to the check. Only the decision lines had changed in the file; the records and their order were as generated.
+- **Done:** the first file is kept in git but not used. R1 screened the same 400 records again, blind, in new files (`calibration_R1v2_01–03.md`, blank files committed in 6cba602, decisions in c1ca7d8); every decision now stands under its record. While explaining the problem in chat, Claude described two records of the sample (R1391, a match-prediction platform; R5596, a betting-tips advertisement) and the subject of a third (R5445); no AI label was shown to R1.
+- **Effect on the review:** the calibration statistics come from the second file (`decisions/calibration_stats.json`): AI rule sensitivity 0.85 (51/60), specificity 0.94, κ 0.74; the safeguard is triggered by 9 records that R1 labelled unsure and both passes excluded.
+
+## D6. Safeguard re-screening narrowed to targeted records plus a random audit (2026-10-19)
+
+- **Planned (§11b):** if the safeguard triggers, R1 screens blind all double AI exclusions outside the calibration sample that mention gambling or betting or lack an abstract — 5,366 records in this review.
+- **Done (decision of R1, 2026-10-19, after the calibration was unblinded):**
+  1. **Targeted:** all 1,063 of those double exclusions where either pass gave one of the reasons "no problem-gambling measure", "sample selected for gambling problems", "operator data only" or "qualitative" (`TARGET_REASONS` in `screen_md.py`);
+  2. **Audit:** a random sample of 300 of the other 4,303 (`random.Random(20261019).sample` over the sorted record IDs).
+  Both strata are mixed in one random order (same seed) and screened blind, without AI labels, so R1 cannot tell them apart; the strata are listed in `screening/rescreen/2026-10-18/scope.json`. The remaining 4,003 double exclusions stay excluded without human review.
+- **Justification:** in the calibration, all 9 records that R1 kept and both passes excluded were labelled unsure by R1, none include; 8 of them had a reason in the targeted set (5 "no problem-gambling measure", 2 "selected for problems", 1 "qualitative"), one had "review or commentary". The full re-screening would have cost 5,366 blind decisions. The audit gives a direct estimate of the miss rate in the part that is not re-screened.
+- **Reported:** records moved to full text in each stratum; for the audit, the proportion moved with a Clopper–Pearson 95% CI, and the implied number of misses among the 4,003 records not re-screened.
+- **Effect on the review:** a smaller safeguard than registered; the audit quantifies what may be missed. This is a post hoc change, made after seeing the calibration results, and is reported as such.
+- **Addendum (2026-10-19, after the re-screening, before any full text was read):** R1 moved 287 of 1,063 targeted records and 57 of the 300 audit records to full text, all as unsure. In the audit, most of these records have no abstract (R1 applied the file instruction "no abstract — decide by title or mark `?`"). The proportion moved to full text therefore overstates the miss rate of the AI rule. The miss rate is estimated from the full-text outcome instead: the number of audit records that turn out eligible at full text, divided by 300, with a Clopper–Pearson 95% CI, and projected to the 4,003 records of the same stratum that were not re-screened. This is fixed before the full texts of these records are assessed.
+
+## D7. Full texts screened by R1 without AI proposals (2026-10-19)
+
+- **Planned (§11b):** the AI (Claude Opus 5.5) drafts a proposal for every retrieved full text — eligible or not, the primary reason, and where the counts for sports bettors are; R1 checks each proposal and decides.
+- **Done (decision of R1, 2026-10-19, before any proposal of the main pass was made):** R1 screens all 488 retrieved full texts himself, without AI proposals. The fixed prompt (`fulltext/ft_prompt.md`, tag `sports-betting-ft-prompt-v1.0`) was used only in the five-report pilot (`fulltext/llm/pilot_2026-10-19.jsonl`); the pilot proposals are not shown in R1's files. Decision files: `fulltext/decisions/ft_R1_01–10.md` (`ft_md.py make --no-ai`), with links to the local PDF or text and to the online version; R1 writes the decision code and, for eligible reports, where the counts are.
+- **Justification:** R1's choice; it also saves about 490 model calls.
+- **Effect on the review:** none on eligibility criteria; every decision is a human one, as registered. The AI-agreement statistics planned for the full-text stage are not reported. Data extraction keeps the registered procedure (AI draft, R1 verifies every value).
+
+## C1. Levels table completed before extraction (clarification, 2026-10-19)
+
+Protocol §13 asks for the levels table (`forms/instrument_thresholds.csv`) to be completed for every instrument found in the included studies before extraction, from development and validation papers only, as a clarification. Instruments in the 56 included reports (R1's "where" lines and the texts): PGSI, CPGI/ICJE, PGSI versions reworded for sports betting, SOGS, DSM-IV-MR-J, NODS-SA, BBGS, DSM-5 criteria, CAGI, and the Turkish PSBSI. Added or clarified:
+- **CAGI** (General Problem Severity Subscale, 0-27): L2 = yellow light (>= 2, the instrument's at-risk category), L3 = red light (>= 6); green light includes a score of 1, so L1 is not defined. Source: Jimenez-Murcia et al. (2017, https://doi.org/10.3389/fpsyg.2017.00177), citing the developers' report (Tremblay et al., 2010).
+- **PGSI:** CPGI, ICJE and versions with items reworded for sports betting count as the PGSI when the 0-3 item scoring is unchanged; other scoring (the PSBSI: items 1-3, total 9-27) is coded adhoc, not levelled.
+- **NODS-SA** is scored as the NODS.
+- **DSM-5 screens:** L2 stays provisional; no included report gave a DSM-5 category below 4 at full-text screening.
+
+## D8. Analysis: samples whose denominator includes non-bettors, cumulative levels, post hoc checks (2026-10-20)
+
+- **Samples whose estimates are not for sports bettors** (`NOT_BETTORS` in `analysis/analysis.R`): S009 (R1215, all Prolific past-year gamblers, 71% of whom bet on sports online), S015 (R2226, all 171 Catholic youths given the PGSI, bettors not identified) and S034 (R3643, all 384 past-year male gamblers, 80% online sports or race bettors). The AI draft flagged each; R1 verified the values but did not drop the samples. Their PGSI estimates describe a population that is not the review's (eligibility I1/I4), so they are listed in `results/listed_not_pooled.csv`, left out of the pooled analyses, and added back in the post hoc sensitivity analysis S11. **Confirmed by R1 on 2026-10-20.**
+- **Cumulative levels from categories** (`analysis/build_levels.py`): the codebook keeps every category as printed and builds cumulative levels at analysis; a level is built only from contiguous closed bands that start at the level's standard threshold and end in an open top category (e.g., PGSI >= 3 = "3-7" + "8+"). A direct estimate with the same lower bound takes precedence. One sample (S032, France) gives the moderate-risk level only with the revised PGSI threshold (>= 5); it enters L2 as its only L2 estimate (flagged standard = no); sensitivity analysis 4 (revised thresholds) has k = 1 and is not pooled.
+- **Sample type:** the extraction separated bettors in non-probability surveys of gamblers (`gamblers_survey_subsample`) from bettors in representative surveys; university students, school pupils, athletes and the one hospital-outpatient sample are pooled as "students, pupils and other" (each alone has k < 3). Regions with k < 3 are pooled as "other".
+- **Post hoc sensitivity analyses:** S11 (with the three samples above), S12 (without S010, student-athletes all given the PGSI without a betting-participation question), S13 (L3 for every sample, i.e., the one L4 interview estimate replaced by the same sample's L3 screen).
+- **Not estimable as registered:** the L4 pooled estimate (k = 1); US samples before and after May 2018 and Brazilian samples before and after Law 14.790/2023 (k < 10); the share of in-play bettors (k = 3) and daily fantasy sports (no variation).
+
+## D9. Post hoc additions to the analysis (2026-10-20, after the pooled results were known)
+
+- **Within-study contrasts** (`results/within_study_contrasts.csv`, descriptive odds ratios): the exploratory moderators esports betting (k = 7), share of in-play bettors (k = 3) and betting frequency could not be tested at k >= 10, but four studies compared groups of bettors recruited the same way with the same instrument: esports vs traditional sports bettors (Greer et al., 2021: two quota samples; Wardle, 2020: subgroups of one survey), weekly vs less frequent bettors (Castren et al., 2013), online vs land-based bettors (Tomei et al., 2025; overlapping groups). Reported as descriptive, one study per row, without pooling.
+- **Moderate-risk band** (`results/pooled.csv`, "Post hoc: moderate-risk band only"): the PGSI 3-7 category pooled directly from the closed bands (28 samples), so that the size of the moderate-risk group is not read off as the difference between two pooled levels estimated from different samples.
+- **S6b:** the drafts coded `sports_lottery = unclear` also when a report did not say anything about sports lotteries (25 of 27 such codes; verified as is by R1), so sensitivity analysis 6 as registered drops samples that merely listed lotteries as a separate activity. S6b drops only the samples defined as sports-and-race betting or by a sports lottery. Both are reported.
+
+## C2. GRADE thresholds (clarification, 2026-10-20)
+
+Protocol §17 names the domains and the imprecision threshold (CI half-width above 5 percentage points). The other thresholds follow the misophonia review (its deviations, 2026-10-15) and were set when rating, after the pooled results were known: risk of bias, more than half of the inverse-variance weight from samples rated no on JBI item 2, 6 or 9; indirectness, fewer than five countries or three regions; publication bias, small-study regression p < 0.10, assessed when k >= 10 (not for the odds ratio); imprecision for the odds ratio, a CI including 1; inconsistency for the odds ratio, a prediction interval on both sides of 1. Inconsistency for prevalence: a 95% prediction interval wider than 30 percentage points (the misophonia rule, "below 5% and above 20%", was set for prevalences around 10% and would not flag an interval of 19-97%). Certainty starts high for event rates (Iorio et al., 2015). Rules and inputs: Table 4 (`manuscript/make_tables.py`), `analysis/results/grade_inputs.csv`. Result: very low certainty for every outcome.
+

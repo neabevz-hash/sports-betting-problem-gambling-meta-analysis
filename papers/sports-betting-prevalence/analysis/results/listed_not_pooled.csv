@@ -1,0 +1,60 @@
+estimate_id,sample_id,subgroup,instrument,threshold,level,cases,n,reason,notes
+E0004,S003,all,PGSI,PGSI 0,below,NR,185,counts not reported (only percentages),"The value is shown only in Figure 1 (graphic, not in the text). The reviewer should read the percentage for 'Apuestas deportivas' from the figure and apply it to n=185."
+E0005,S003,all,PGSI,PGSI 1-2,L1,NR,185,counts not reported (only percentages),Shown only in Figure 1 (graphic). Read from the figure.
+E0006,S003,all,PGSI,PGSI 3-7,L2,NR,185,counts not reported (only percentages),Shown only in Figure 1 (graphic). Read from the figure.
+E0007,S003,all,PGSI,PGSI>=8,L3,NR,185,counts not reported (only percentages),"Shown only in Figure 1 (graphic); the text does not give the sports-betting percentage. The authors' primary estimate is for the whole sample (11.2%, 114/1,018), not for sports bettors."
+E0014,S005,all,adhoc,"PGSI 7-item harm index (items dichotomised 0/1, range 0-7) >=2",not_levelled,893,1647,level not_levelled,"Mixed sports and race bettors. Threshold taken from prior lower-risk guideline studies [1, 20]. Weighted for oversampling of operator-flagged at-risk customers. Table 1 shows 854 PGSI-harmed among the 1,580 GHM completers."
+E0015,S005,all,other,"Gambling Harm Measure: any 'yes' at strain/pressure level (level 2) in any domain, or yes to the legal item",not_levelled,472,1580,level not_levelled,"Denominator = GHM completers (1,580), not all 1,647. Table 1: 448 + 24 = 472."
+E0016,S005,18-25,adhoc,"PGSI 7-item harm index (items dichotomised 0/1, range 0-7) >=2",not_levelled,159,239,level not_levelled,"Exploratory, not preregistered; participants aged 25 or younger (described as 18-25). Unweighted percentage."
+E0017,S005,18-25,other,"Gambling Harm Measure: any 'yes' at strain/pressure level in any domain, or yes to the legal item",not_levelled,87,NR,counts not reported (only percentages),"Denominator unclear: 87/239 = 36.4%, but 41% printed; likely the number of young GHM completers (~212), not reported."
+E0031,S009,"all participants (past-year gamblers, NOT sports bettors only)",PGSI,PGSI 0,below,275,585,denominator includes non-bettors (D8),"Whole gambler sample, not restricted to sports bettors; cut-offs not stated, standard PGSI categories assumed from 'PGSI categories'."
+E0032,S009,"all participants (past-year gamblers, NOT sports bettors only)",PGSI,PGSI 1-2,L1,141,585,denominator includes non-bettors (D8),"Whole gambler sample, not restricted to sports bettors."
+E0033,S009,"all participants (past-year gamblers, NOT sports bettors only)",PGSI,PGSI 3-7,L2,108,585,denominator includes non-bettors (D8),"Whole gambler sample, not restricted to sports bettors."
+E0034,S009,"all participants (past-year gamblers, NOT sports bettors only)",PGSI,PGSI>=8,L3,61,585,denominator includes non-bettors (D8),"Whole gambler sample, not restricted to sports bettors. Authors relabel 'problem gambler' as 'high-risk'."
+E0051,S015,all respondents (bettors and non-bettors not separated),PGSI,PGSI 0,below,53,171,denominator includes non-bettors (D8),"The authors treat PGSI 0 as not betting (100 - 31 = 69% betting), so this category probably mixes non-bettors with non-problem bettors."
+E0052,S015,all respondents (bettors and non-bettors not separated),PGSI,PGSI 1-2,L1,12,171,denominator includes non-bettors (D8),Denominator is all 171 respondents. On the alternative denominator of 118 implied bettors: 12/118.
+E0053,S015,all respondents (bettors and non-bettors not separated),PGSI,PGSI 3-7,L2,79,171,denominator includes non-bettors (D8),Denominator is all 171 respondents. On the alternative denominator of 118 implied bettors: 79/118.
+E0054,S015,all respondents (bettors and non-bettors not separated),PGSI,PGSI>=8,L3,27,171,denominator includes non-bettors (D8),"This is the authors' headline estimate ('around 15% ... problem betting'), with all respondents as the denominator. On the alternative denominator of 118 implied bettors: 27/118 = 22.9%."
+E0055,S015,all respondents (bettors and non-bettors not separated),PGSI,PGSI>=1,L1,118,171,denominator includes non-bettors (D8),"The authors use this cumulative figure as the prevalence of sports betting, not as a problem-gambling estimate."
+E0078,S022,all,PGSI,"PGSI>=8 (0-27, Queensland-modified response scale)",L3,NR,NR,counts not reported (only percentages),"Weighted %, 95% CI 1.4-5.4; counts not reported. Includes event betting."
+E0079,S022,all,PGSI,"PGSI>=3 (0-27, Queensland-modified response scale)",L2,NR,NR,counts not reported (only percentages),"Weighted %, 95% CI 9.6-17.6."
+E0086,S022,monthly sports bettors,PGSI,PGSI>=8,L3,NR,NR,counts not reported (only percentages),At least 12 days/year; 95% CI 2.0-10.7.
+E0087,S022,monthly sports bettors,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 13.9-29.3.
+E0088,S022,weekly sports bettors,PGSI,PGSI>=8,L3,NR,NR,counts not reported (only percentages),At least 52 days/year; 95% CI 1.8-21.0.
+E0089,S022,weekly sports bettors,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 16.0-42.1.
+E0090,S023,all,PGSI,"PGSI>=8 (0-27, Queensland-modified response scale)",L3,NR,NR,counts not reported (only percentages),"Weighted %, 95% CI 2.8-18.5; counts not reported."
+E0091,S023,all,PGSI,"PGSI>=3 (0-27, Queensland-modified response scale)",L2,NR,NR,counts not reported (only percentages),"Weighted %, 95% CI 10.3-25.4."
+E0092,S023,monthly sports bettors,PGSI,PGSI>=8,L3,NR,NR,counts not reported (only percentages),95% CI 4.3-22.1; frequency data for 2014 described as incomplete.
+E0093,S023,monthly sports bettors,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 19.4-41.5.
+E0094,S023,weekly sports bettors,PGSI,PGSI>=8,L3,NR,NR,counts not reported (only percentages),95% CI 3.5-37.2.
+E0095,S023,weekly sports bettors,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 17.3-50.8.
+E0096,S024,all,PGSI,PGSI>=8 (0-27),L3,NR,NR,counts not reported (only percentages),"Weighted %, 95% CI 1.1-5.2; counts not reported."
+E0097,S024,all,PGSI,PGSI>=3 (0-27),L2,NR,NR,counts not reported (only percentages),"Weighted %, 95% CI 9.6-17.0."
+E0098,S024,monthly sports bettors,PGSI,PGSI>=8,L3,NR,NR,counts not reported (only percentages),95% CI 1.6-11.8.
+E0099,S024,monthly sports bettors,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 12.0-27.2.
+E0100,S024,weekly sports bettors,PGSI,PGSI>=8,L3,NR,NR,counts not reported (only percentages),95% CI 0.0-14.0.
+E0101,S024,weekly sports bettors,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 8.8-32.8.
+E0102,S024,online,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),Online ever = gambled online on any activity; 95% CI 8.4-16.7.
+E0103,S024,"online, female",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 0.0-10.3.
+E0104,S024,"online, male",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 9.4-19.0.
+E0105,S024,"online, 18-24",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 12.2-31.2.
+E0106,S024,"online, 25-44",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 3.1-13.0.
+E0107,S024,"online, 45-64",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 2.7-24.2.
+E0108,S024,"online, 65-74",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 0.0-32.7; 75+ cell blank.
+E0109,S024,land-based,PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),LBVO = never gambled online on any activity; 95% CI 6.4-22.9.
+E0110,S024,"land-based, female",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 0.5-43.6; small n per authors.
+E0111,S024,"land-based, male",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 4.1-21.9.
+E0112,S024,"land-based, 18-24",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 0.0-39.0.
+E0113,S024,"land-based, 25-44",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 3.9-25.4.
+E0114,S024,"land-based, 45-64",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 0.0-34.0.
+E0115,S024,"land-based, 65-74",PGSI,PGSI>=3,L2,NR,NR,counts not reported (only percentages),95% CI 0.0-27.1; 75+ cell blank.
+E0163,S034,all past-year gamblers (not sports-bettor specific),PGSI,PGSI 0,below,157,384,denominator includes non-bettors (D8),"Denominator = all 384 past-year gamblers, of whom 306 bet online on sports or horse racing; not a sports-bettor estimate. PGSI time frame not stated."
+E0164,S034,all past-year gamblers (not sports-bettor specific),PGSI,PGSI 1-2,L1,121,384,denominator includes non-bettors (D8),Denominator = all 384 past-year gamblers; not a sports-bettor estimate.
+E0165,S034,all past-year gamblers (not sports-bettor specific),PGSI,PGSI 3-7,L2,80,384,denominator includes non-bettors (D8),Denominator = all 384 past-year gamblers; not a sports-bettor estimate.
+E0166,S034,all past-year gamblers (not sports-bettor specific),PGSI,PGSI>=8,L3,26,384,denominator includes non-bettors (D8),Denominator = all 384 past-year gamblers; not a sports-bettor estimate.
+E0196,S040,all,adhoc,PSBSI>=8 (stated 0-27 scoring; observed range 9-27),not_levelled,643,643,level not_levelled,100% is probably a scoring artefact: the minimum possible score appears to be 9.
+E0197,S040,all,adhoc,PSBSI 3-7,not_levelled,0,643,level not_levelled,"Category defined in the paper, but no participant fell in it."
+E0198,S040,all,adhoc,PSBSI 1-2,not_levelled,0,643,level not_levelled,"Category defined in the paper, but no participant fell in it."
+E0199,S040,all,adhoc,PSBSI 0,not_levelled,0,643,level not_levelled,"Category defined in the paper, but no participant fell in it."
+E0249,S049,online,DSM-IV-MR-J,DSM-IV-MR-J>=4 (range 0-9),L3,NR,NR,counts not reported (only percentages),"Only a percentage is reported: 20.2% problematic gambling among past-year online sports bettors. The number of online sports bettors is not reported, so cases and n are NR. The wording is ambiguous: it most likely means the share of online sports bettors with problematic gambling, but could mean the share of problematic gamblers who bet online. No at-risk (2-3) category or offline sports-bettor estimate is reported."
+E0250,S050,online,DSM-IV-MR-J,DSM-IV-MR-J>=4 (range 0-9),L3,NR,NR,counts not reported (only percentages),"Only a percentage is reported: 19.8% problematic gambling among past-year online sports bettors. The number of online sports bettors is not reported, so cases and n are NR. The wording is ambiguous: it most likely means the share of online sports bettors with problematic gambling, but could mean the share of problematic gamblers who bet online. No at-risk (2-3) category or offline sports-bettor estimate is reported."

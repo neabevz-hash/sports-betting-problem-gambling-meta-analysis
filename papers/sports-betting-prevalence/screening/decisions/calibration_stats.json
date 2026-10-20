@@ -1,0 +1,198 @@
+{
+  "run": "2026-10-18",
+  "ai_labels_sha256": {
+    "opus": "1826d76d269151ad20b9a3b5ef3d69a6e74546bd64357630fe2c88861be291d6",
+    "sonnet": "064887ac8e96152df79d575bda605eb11f19d51f2c53c4c34208b632ebef978c"
+  },
+  "n_calibration": 400,
+  "n_compared": 400,
+  "calibration_records_without_ai_label": [],
+  "passes": {
+    "opus": {
+      "three_labels": {
+        "agreement": 0.93,
+        "kappa": 0.7426470588235297,
+        "kappa_ci": [
+          0.6444849589790336,
+          0.8270608581075517
+        ],
+        "confusion": {
+          "R1_include": {
+            "AI_include": 16,
+            "AI_unsure": 4,
+            "AI_exclude": 0
+          },
+          "R1_unsure": {
+            "AI_include": 0,
+            "AI_unsure": 30,
+            "AI_exclude": 10
+          },
+          "R1_exclude": {
+            "AI_include": 0,
+            "AI_unsure": 14,
+            "AI_exclude": 326
+          }
+        }
+      },
+      "full_text_vs_exclude": {
+        "agreement": 0.94,
+        "kappa": 0.7709923664122136,
+        "kappa_ci": [
+          0.6724274257313905,
+          0.856572990901349
+        ],
+        "ac1": 0.918704694803875,
+        "ac1_ci": [
+          0.8826797022553049,
+          0.9502539123225205
+        ],
+        "sensitivity": 0.8333333333333334,
+        "sensitivity_ci": [
+          0.7147807451712971,
+          0.9170711898409363
+        ],
+        "specificity": 0.9588235294117647,
+        "specificity_ci": [
+          0.9318773595686989,
+          0.9773085644854702
+        ],
+        "counts": {
+          "tp": 50,
+          "fn": 10,
+          "tn": 326,
+          "fp": 14
+        }
+      }
+    },
+    "sonnet": {
+      "three_labels": {
+        "agreement": 0.92,
+        "kappa": 0.7039777983348753,
+        "kappa_ci": [
+          0.6060377012757964,
+          0.7908693560867475
+        ],
+        "confusion": {
+          "R1_include": {
+            "AI_include": 17,
+            "AI_unsure": 3,
+            "AI_exclude": 0
+          },
+          "R1_unsure": {
+            "AI_include": 0,
+            "AI_unsure": 27,
+            "AI_exclude": 13
+          },
+          "R1_exclude": {
+            "AI_include": 0,
+            "AI_unsure": 16,
+            "AI_exclude": 324
+          }
+        }
+      },
+      "full_text_vs_exclude": {
+        "agreement": 0.9275,
+        "kappa": 0.7214217098943323,
+        "kappa_ci": [
+          0.6245810055865922,
+          0.8099049524762382
+        ],
+        "ac1": 0.9019976428743415,
+        "ac1_ci": [
+          0.8626040928126966,
+          0.9359999999999999
+        ],
+        "sensitivity": 0.7833333333333333,
+        "sensitivity_ci": [
+          0.6580438212653474,
+          0.8792839755373032
+        ],
+        "specificity": 0.9529411764705882,
+        "specificity_ci": [
+          0.924702819166898,
+          0.9728659499003189
+        ],
+        "counts": {
+          "tp": 47,
+          "fn": 13,
+          "tn": 324,
+          "fp": 16
+        }
+      }
+    }
+  },
+  "ai_rule_full_text_unless_both_exclude": {
+    "agreement": 0.9275,
+    "kappa": 0.7356426618049224,
+    "kappa_ci": [
+      0.6376811594202899,
+      0.8228043143297381
+    ],
+    "ac1": 0.9001553617001131,
+    "ac1_ci": [
+      0.8607198817904638,
+      0.9347641724835279
+    ],
+    "sensitivity": 0.85,
+    "sensitivity_ci": [
+      0.7342595522427049,
+      0.9290438047429088
+    ],
+    "specificity": 0.9411764705882353,
+    "specificity_ci": [
+      0.9106113853108715,
+      0.9637024888999275
+    ],
+    "counts": {
+      "tp": 51,
+      "fn": 9,
+      "tn": 320,
+      "fp": 20
+    }
+  },
+  "passes_agreement_full_text_vs_exclude": {
+    "agreement": 0.9625,
+    "kappa": 0.8596031448895546
+  },
+  "safeguard_triggered": true,
+  "rule_false_negatives": [
+    "R4921",
+    "R1597",
+    "R4951",
+    "R2077",
+    "R7484",
+    "R5441",
+    "R6381",
+    "R8025",
+    "R1940"
+  ],
+  "single_pass_false_negatives": {
+    "opus": [
+      "R4921",
+      "R1597",
+      "R4951",
+      "R2077",
+      "R7484",
+      "R2869",
+      "R5441",
+      "R6381",
+      "R8025",
+      "R1940"
+    ],
+    "sonnet": [
+      "R4921",
+      "R1921",
+      "R1597",
+      "R4951",
+      "R2077",
+      "R7484",
+      "R0613",
+      "R2845",
+      "R5441",
+      "R6381",
+      "R6961",
+      "R8025",
+      "R1940"
+    ]
+  }
+}

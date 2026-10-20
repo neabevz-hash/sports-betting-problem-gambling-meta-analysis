@@ -1,0 +1,5 @@
+sample_id,instrument,level,threshold,m_cases,m_n,f_cases,f_n
+S022,PGSI,L2,PGSI>=3,72,491,7,117
+S030,DSM-5-screen,L3,DSM-5-screen>=4,112,212,10,37
+S039,PGSI,L3,PGSI>=8,135,3084,25,782
+S055,PGSI,L2,PGSI>=3,178,1275,3,119

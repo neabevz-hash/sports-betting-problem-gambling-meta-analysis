@@ -1,0 +1,29 @@
+{
+  "title": "Problem gambling among people who bet on sports: data and code",
+  "upload_type": "dataset",
+  "description": "<p>Records, decisions, extracted data and analysis code for a registered systematic review and meta-analysis of the prevalence of problem gambling among people who bet on sports (search 18 October 2026; 53 studies, 58 samples, 46 samples in the meta-analyses). The repository includes the protocol and deviations log, search logs and records, two AI screening passes with the reviewer's blind calibration and decisions, the reviewer's full-text decisions, AI extraction drafts with the reviewer's verification, the analysis tables, R and Python analysis scripts, results, figures, Tables 1-4 and Supplementary Files S1-S9.</p>",
+  "creators": [
+    {
+      "name": "Rekhert, Martin",
+      "affiliation": "Higher School of Psychology, Turan University, Almaty, Kazakhstan",
+      "orcid": "0009-0001-2402-2031"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "sports betting",
+    "problem gambling",
+    "prevalence",
+    "meta-analysis",
+    "systematic review",
+    "public health"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/6GQ48",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ],
+  "language": "eng"
+}

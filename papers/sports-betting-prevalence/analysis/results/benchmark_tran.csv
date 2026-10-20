@@ -1,0 +1,2 @@
+analysis,k,n_total,cases_total,prev,ci.lb,ci.ub,pi.lb,pi.ub,tau2,I2,method,note,tran_prev,tran_ci.lb,tran_ci.ub
+Primary by sample type: bettors in representative surveys,5,6534,796,0.1576492371077671,0.05541657462529572,0.37383891955924947,0.011306966778187124,0.7538619883489713,1.683505394804589,98.75546504719405,"GLMM (binomial-normal, ML)","descriptive comparison, no formal test (protocol 15b)",0.089,0.052,0.135

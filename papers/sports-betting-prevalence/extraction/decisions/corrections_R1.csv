@@ -1,0 +1,10 @@
+sample_key,target,field,ai_value,r1_value,key_field
+ST007-1,E6,*,estimate,deleted,yes
+ST028-1,E2,*,estimate,deleted,yes
+ST028-1,E3,*,estimate,deleted,yes
+ST028-1,E4,*,estimate,deleted,yes
+ST028-1,E5,*,estimate,deleted,yes
+ST028-1,E6,*,estimate,deleted,yes
+ST028-1,E1,primary_for_authors,no,yes,no
+ST030-1,sample,n_bettors,537,913,yes
+ST030-1,sample,betting_period,past 30 days or month,past 12 months,yes

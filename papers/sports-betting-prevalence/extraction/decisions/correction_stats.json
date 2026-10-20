@@ -1,0 +1,17 @@
+{
+  "verified_samples": 58,
+  "drafted_estimates": 293,
+  "drafted_values": 6419,
+  "values_corrected": 9,
+  "share_corrected": 0.0014,
+  "key_values": 1697,
+  "key_values_corrected": 8,
+  "share_key_corrected": 0.0047,
+  "estimates_added_by_R1": 0,
+  "by_field": {
+    "estimate.*": 6,
+    "estimate.primary_for_authors": 1,
+    "sample.n_bettors": 1,
+    "sample.betting_period": 1
+  }
+}

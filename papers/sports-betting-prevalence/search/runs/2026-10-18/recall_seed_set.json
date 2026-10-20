@@ -1,0 +1,232 @@
+{
+  "run": "2026-10-18",
+  "seed_studies": 25,
+  "in_screening_list": 25,
+  "studies": [
+    {
+      "study": "Holtgraves",
+      "year": "2009",
+      "doi": "10.1037/a0014181",
+      "found": true,
+      "rec_id": "R7595",
+      "sources": "pubmed;europepmc;openalex;s2;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Li et al.",
+      "year": "2012",
+      "doi": "10.1007/s10899-011-9243-3",
+      "found": true,
+      "rec_id": "R6962",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "McCormack et al.",
+      "year": "2013",
+      "doi": "10.1556/jba.2.2013.1.5",
+      "found": true,
+      "rec_id": "R6695",
+      "sources": "pubmed;europepmc;openalex;s2;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Hing et al.",
+      "year": "2015",
+      "doi": "10.1007/s11469-014-9519-9",
+      "found": true,
+      "rec_id": "R6084",
+      "sources": "openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Hing et al.",
+      "year": "2016",
+      "doi": "10.1007/s10899-015-9571-9",
+      "found": true,
+      "rec_id": "R5776",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Hing et al.",
+      "year": "2015",
+      "doi": "10.1016/j.jbusres.2015.03.003",
+      "found": true,
+      "rec_id": "R6083",
+      "sources": "openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Li et al.",
+      "year": "2015",
+      "doi": "10.2224/sbp.2015.43.8.1299",
+      "found": true,
+      "rec_id": "R6121",
+      "sources": "openalex;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Marchica et al.",
+      "year": "2017",
+      "doi": "10.1007/s10899-016-9653-3",
+      "found": true,
+      "rec_id": "R5493",
+      "sources": "pubmed;europepmc;openalex;s2;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Hing et al.",
+      "year": "2017",
+      "doi": "10.3389/fpsyg.2017.00779",
+      "found": true,
+      "rec_id": "R5423",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Hing et al.",
+      "year": "2017",
+      "doi": "10.1007/s10899-017-9671-9",
+      "found": true,
+      "rec_id": "R5422",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Martin et al.",
+      "year": "2017",
+      "doi": "10.1080/14459795.2017.1409248",
+      "found": true,
+      "rec_id": "R5496",
+      "sources": "openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Hing et al.",
+      "year": "2018",
+      "doi": "10.1556/2006.7.2018.17",
+      "found": true,
+      "rec_id": "R5106",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Drayer et al.",
+      "year": "2019",
+      "doi": "10.1123/jsm.2018-0164",
+      "found": true,
+      "rec_id": "R5050",
+      "sources": "openalex;s2;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Lopez-Gonzalez et al.",
+      "year": "2019",
+      "doi": "10.1007/s11469-018-9876-x",
+      "found": true,
+      "rec_id": "R5148",
+      "sources": "openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Lopez-Gonzalez et al.",
+      "year": "2018",
+      "doi": "10.1556/2006.7.2018.84",
+      "found": true,
+      "rec_id": "R5144",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Russell et al.",
+      "year": "2019",
+      "doi": "10.1007/s10899-019-09848-x",
+      "found": true,
+      "rec_id": "R4871",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Gainsbury et al.",
+      "year": "2019",
+      "doi": "10.1186/s12889-019-7738-5",
+      "found": true,
+      "rec_id": "R4682",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;datacite;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Gainsbury et al.",
+      "year": "2020",
+      "doi": "10.3389/fpsyt.2020.574884",
+      "found": true,
+      "rec_id": "R4258",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Newall et al.",
+      "year": "2021",
+      "doi": "10.1080/16066359.2020.1792887",
+      "found": true,
+      "rec_id": "R4428",
+      "sources": "openalex;s2;crossref",
+      "to_screen": true
+    },
+    {
+      "study": "Håkansson & Widinghoff",
+      "year": "2020",
+      "doi": "10.3389/fpsyt.2020.00007",
+      "found": true,
+      "rec_id": "R4315",
+      "sources": "pubmed;europepmc;openalex;s2;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Håkansson",
+      "year": "2020",
+      "doi": "10.3389/fpsyg.2020.568543",
+      "found": true,
+      "rec_id": "R4314",
+      "sources": "pubmed;europepmc;openalex;s2;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Wardle et al.",
+      "year": "2021",
+      "doi": "10.1016/j.addbeh.2021.106876",
+      "found": true,
+      "rec_id": "R4056",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Cooper et al.",
+      "year": "2021",
+      "doi": "10.1007/s10899-021-10025-2",
+      "found": true,
+      "rec_id": "R3321",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;datacite;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Wang et al.",
+      "year": "2021",
+      "doi": "10.3390/ijerph18041803",
+      "found": true,
+      "rec_id": "R4054",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    },
+    {
+      "study": "Torrance et al.",
+      "year": "2022",
+      "doi": "10.1371/journal.pone.0264000",
+      "found": true,
+      "rec_id": "R3607",
+      "sources": "pubmed;europepmc;openalex;s2;crossref;openaire",
+      "to_screen": true
+    }
+  ]
+}

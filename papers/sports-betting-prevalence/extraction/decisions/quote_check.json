@@ -1,0 +1,219 @@
+{
+  "estimates": {
+    "quotes_checked": 242,
+    "found_verbatim": 223,
+    "too_short_to_check": 51,
+    "share_found": 0.9215
+  },
+  "key_fields": {
+    "quotes_checked": 227,
+    "found_verbatim": 217,
+    "too_short_to_check": 5,
+    "share_found": 0.9559
+  },
+  "not_found": [
+    {
+      "job": "R5162",
+      "sample": "Women past-year sports bettors in an online panel survey, NSW and Victoria, Aust",
+      "item": "E1",
+      "quote": "Sports betting n = 122, 37.7% ... Non-problem | 117 | 46.8 | 100 | 48.5 | 63 | 38.0 | 30 | 24.6",
+      "not_found": "sportsbettingn122377"
+    },
+    {
+      "job": "R5162",
+      "sample": "Women past-year sports bettors in an online panel survey, NSW and Victoria, Aust",
+      "item": "n_bettors",
+      "quote": "Sports betting n = 122, 37.7%",
+      "not_found": "sportsbettingn122377"
+    },
+    {
+      "job": "R0534",
+      "sample": "Spain, online panel of young adult gamblers (18-34), RCT baseline Dec 2024-Jan 2",
+      "item": "E5",
+      "quote": "También se registraron porcentajes elevados de juego problemático en los que participaban en actividades gamblificadas relacionadas con videojuegos, como ... las apuestas en eSports (58,5%); Apuestas en eSports 5,2 (53)",
+      "not_found": "lasapuestasenesports585apuestasenesports5253"
+    },
+    {
+      "job": "R0534",
+      "sample": "Spain, online panel of young adult gamblers (18-34), RCT baseline Dec 2024-Jan 2",
+      "item": "sample_type",
+      "quote": "La muestra fue reclutada mediante un panel online gestionado por una empresa externa [recruited through an online panel run by an external company]; Apuestas deportivas 18,2 (185)",
+      "not_found": "lamuestrafuereclutadamedianteunpanelonlinegestionadoporunaempresaexternaapuestasdeportivas182185"
+    },
+    {
+      "job": "R0534",
+      "sample": "Spain, online panel of young adult gamblers (18-34), RCT baseline Dec 2024-Jan 2",
+      "item": "sampling",
+      "quote": "La invitación se envió exclusivamente a personas inscritas en el panel que cumplían el rango de edad establecido (18-34 años) [Invitation sent only to panel members in the age range]",
+      "not_found": "lainvitaciónseenvióexclusivamenteapersonasinscritasenelpanelquecumplíanelrangodeedadestablecido1834años"
+    },
+    {
+      "job": "R3059",
+      "sample": "Prolific online race/sports bettors, UK and USA, combined, n=1865",
+      "item": "n_bettors",
+      "quote": "the final sample consisted of 1001 participants from the UK and 864 from the US (N = 1865)",
+      "not_found": "thefinalsampleconsistedof1001participantsfromtheukand864fromtheusn1865"
+    },
+    {
+      "job": "R2271",
+      "sample": "Esports bettors among Dutch-speaking European adult video game consumers, online",
+      "item": "E1",
+      "quote": "PGSI Status (N = 718) ... Esports bettors N (71) % ... Non-problematic 510 84.44 27 38.03",
+      "not_found": "esportsbettorsn71"
+    },
+    {
+      "job": "R2271",
+      "sample": "Esports bettors among Dutch-speaking European adult video game consumers, online",
+      "item": "n_bettors",
+      "quote": "PGSI Status (N = 718) ... Esports bettors N (71)",
+      "not_found": "esportsbettorsn71"
+    },
+    {
+      "job": "R4314",
+      "sample": "Sweden, Ipsos web panel of frequent online gamblers, past-year sports bettors, M",
+      "item": "E9",
+      "quote": "Sports live betting | 474 (48) | 277 | 58; Sports live betting | 36 | 22 | 0.001",
+      "not_found": "58sportslivebetting"
+    },
+    {
+      "job": "R4314",
+      "sample": "Sweden, Ipsos web panel of frequent online gamblers, past-year sports bettors, M",
+      "item": "E10",
+      "quote": "Sports live betting | 474 (48) | 277 | 58; Sports live betting | 36 | 22 | 0.001",
+      "not_found": "58sportslivebetting"
+    },
+    {
+      "job": "R4314",
+      "sample": "Sweden, Ipsos web panel of frequent online gamblers, past-year sports bettors, M",
+      "item": "E11",
+      "quote": "Sports non-live betting | 495 (50) | 279 | 56; Sports non-live betting | 28 | 22 | 0.12",
+      "not_found": "56sportsnonlivebetting"
+    },
+    {
+      "job": "R4314",
+      "sample": "Sweden, Ipsos web panel of frequent online gamblers, past-year sports bettors, M",
+      "item": "E12",
+      "quote": "Sports non-live betting | 495 (50) | 279 | 56; Sports non-live betting | 28 | 22 | 0.12",
+      "not_found": "56sportsnonlivebetting"
+    },
+    {
+      "job": "R3113",
+      "sample": "Australian online-panel sports or race bettors (at least monthly), safer-gamblin",
+      "item": "E1",
+      "quote": "PGSI No risk 18.5% 18.4% 16.6%",
+      "not_found": "pgsinorisk185184166"
+    },
+    {
+      "job": "R3113",
+      "sample": "Australian online-panel sports or race bettors (at least monthly), safer-gamblin",
+      "item": "sampling",
+      "quote": "Survey respondents were recruited with the assistance of Qualtrics, which aggregates online panel providers. Online panels were chosen over other methods of recruitment both for cost-efficiency",
+      "not_found": "surveyrespondentswererecruitedwiththeassistanceofqualtricswhichaggregatesonlinepanelprovidersonlinepanelswerechosenoverothermethodsofrecruitmentbothforcosteffic"
+    },
+    {
+      "job": "R3889",
+      "sample": "Esports/virtual sports bettors from IMAS Internet panel, Poland, n=438",
+      "item": "E2",
+      "quote": "19.6% (n = 86, 95%CI[16.1%, 23.5%]) showed a low risk of gambling addiction (1–2 points, low-risk gamblers)",
+      "not_found": "196n8695cishowedalowriskofgamblingaddiction12pointslowriskgamblers"
+    },
+    {
+      "job": "R3889",
+      "sample": "Esports/virtual sports bettors from IMAS Internet panel, Poland, n=438",
+      "item": "E3",
+      "quote": "27.6% (n = 121, 95%CI[23.6%, 32.0%]) showed a moderate level of addiction risk (3–7 points, moderate risk gamblers)",
+      "not_found": "276n12195cishowedamoderatelevelofaddictionrisk37pointsmoderateriskgamblers"
+    },
+    {
+      "job": "R3889",
+      "sample": "Esports/virtual sports bettors from IMAS Internet panel, Poland, n=438",
+      "item": "E4",
+      "quote": "34.9% (n = 153, 95%CI[30.6%, 39.5%]) esports gamblers exhibited gambling disorder symptoms (above 8 points in PGSI, problem gamblers)",
+      "not_found": "349n15395ciesportsgamblersexhibitedgamblingdisordersymptomsabove8pointsinpgsiproblemgamblers"
+    },
+    {
+      "job": "R3643",
+      "sample": "UK men 18+ past-year gamblers, online convenience survey (predictor games), n=38",
+      "item": "n_bettors",
+      "quote": "Online sports gambling frequency Low 57.8 (177) High 42.2 (129)",
+      "not_found": "onlinesportsgamblingfrequencylow578177high422129"
+    },
+    {
+      "job": "R0714",
+      "sample": "Customers of two Entain online wagering sites (sports and race betting), Austral",
+      "item": "E3",
+      "quote": "Harm rates were higher in this younger group of 239 participants, with 159 (67% [unweighted]) reporting PGSI harm and 87 (41%) reporting GHM harm.",
+      "not_found": "harmrateswerehigherinthisyoungergroupof239participantswith15967reportingpgsiharmand8741reportingghmharm"
+    },
+    {
+      "job": "R0714",
+      "sample": "Customers of two Entain online wagering sites (sports and race betting), Austral",
+      "item": "E4",
+      "quote": "with 159 (67% [unweighted]) reporting PGSI harm and 87 (41%) reporting GHM harm.",
+      "not_found": "with15967reportingpgsiharmand8741reportingghmharm"
+    },
+    {
+      "job": "R0129",
+      "sample": "University students who bet on sports, Cotonou/Dassa-Zoumè/Parakou, Benin, 2024-",
+      "item": "sampling",
+      "quote": "deux écoles/facultés des universités privées et deux des universités publiques [...] choisies par ville par sondage aléatoire simple [...] 15 % des classes ont été choisies de façon aléatoire [...] Tous les étudiants présents [...] ont été inclus",
+      "not_found": "deuxécolesfacultésdesuniversitésprivéesetdeuxdesuniversitéspubliqueschoisiesparvilleparsondagealéatoiresimple15desclassesontétéchoisiesdefaçonaléatoiretouslesét"
+    },
+    {
+      "job": "R5077",
+      "sample": "Pupils who bet on sports online, Rhineland-Palatinate school survey (sample 1), ",
+      "item": "betting_period",
+      "quote": "last year's engagement in online casino gaming [...], online sports betting [sample 1: 20.2% with problematic gambling",
+      "not_found": "lastyearsengagementinonlinecasinogamingonlinesportsbettingsample1202withproblematicgambling"
+    },
+    {
+      "job": "R5077",
+      "sample": "Pupils who bet on sports online, North Rhine-Westphalia school survey (sample 2)",
+      "item": "E1",
+      "quote": "online sports betting [...] sample 2: 19.8% with problematic gambling; χ2(2) = 222.68, p = .001, CV = 0.311]",
+      "not_found": "onlinesportsbettingsample2198withproblematicgamblingχ2222268p001cv0311"
+    },
+    {
+      "job": "R5077",
+      "sample": "Pupils who bet on sports online, North Rhine-Westphalia school survey (sample 2)",
+      "item": "betting_period",
+      "quote": "last year's engagement in [...] online sports betting [...] sample 2: 19.8% with problematic gambling",
+      "not_found": "lastyearsengagementinonlinesportsbettingsample2198withproblematicgambling"
+    },
+    {
+      "job": "R4056",
+      "sample": "YouGov cohort of regular sports bettors, Great Britain, wave 1 (6-19 July 2020),",
+      "item": "E1",
+      "quote": "Non-problem gambling (0) (n = 2096) [men]; Non-problem gambling (0) (n = 574) [women]",
+      "not_found": "nonproblemgambling0n2096nonproblemgambling0n574"
+    },
+    {
+      "job": "R4056",
+      "sample": "YouGov cohort of regular sports bettors, Great Britain, wave 1 (6-19 July 2020),",
+      "item": "E2",
+      "quote": "Low risk gambling (1–2)(n = 564) [men]; Low risk gambling (1–2)(n = 124) [women]",
+      "not_found": "lowriskgambling12n564lowriskgambling12n124"
+    },
+    {
+      "job": "R4056",
+      "sample": "YouGov cohort of regular sports bettors, Great Britain, wave 1 (6-19 July 2020),",
+      "item": "E3",
+      "quote": "Moderate risk gambling (3–7) (n = 289) [men]; Moderate risk gambling (3–7) (n = 59) [women]",
+      "not_found": "moderateriskgambling37n289moderateriskgambling37n59"
+    },
+    {
+      "job": "R4056",
+      "sample": "YouGov cohort of regular sports bettors, Great Britain, wave 1 (6-19 July 2020),",
+      "item": "E4",
+      "quote": "Problem gambling (8 + )(n = 135) [men]; Problem gambling (8 + )(n = 25) [women]",
+      "not_found": "problemgambling8n135problemgambling8n25"
+    },
+    {
+      "job": "R4132",
+      "sample": "Secondary school pupils who ever bet on sports, Mbarara Municipality, Uganda, 20",
+      "item": "E2",
+      "quote": "Sports betting 177 (49.0) 109 (68.6); A score of 0–3 was classified as \"no gambling disorder\"",
+      "not_found": "sportsbetting177490109686ascoreof03wasclassifiedasnogamblingdisorder"
+    }
+  ]
+}
