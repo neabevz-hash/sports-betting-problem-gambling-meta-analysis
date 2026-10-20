@@ -5,7 +5,7 @@ This repository contains the records, decisions, extracted data and analysis cod
 > Rekhert, M. (2026). *Problem gambling among people who bet on sports: A systematic review and meta-analysis of prevalence across case definitions and sample types* [Manuscript submitted for publication]. Preprint: forthcoming
 
 - Protocol (OSF Registries, registered 18 October 2026 before screening): https://doi.org/10.17605/OSF.IO/6GQ48
-- Archived release (Zenodo): forthcoming
+- Archived release (Zenodo): https://doi.org/10.5281/zenodo.23493579
 - Author: Martin Rekhert, Higher School of Psychology, Turan University, Almaty, Kazakhstan (ORCID [0009-0001-2402-2031](https://orcid.org/0009-0001-2402-2031))
 
 ## The review in brief
